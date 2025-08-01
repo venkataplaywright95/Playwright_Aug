@@ -1,0 +1,82 @@
+# Page snapshot
+
+```yaml
+- navigation "main navigation":
+  - link "letcode":
+    - /url: /
+    - img "letcode"
+  - link "Work-Space":
+    - /url: /test
+  - text: Products Grooming
+  - link "Courses":
+    - /url: /courses
+  - link "Contact":
+    - /url: /contact
+  - button ""
+- heading "LetCode with Koushik" [level=1]
+- paragraph: Insights on software testing videos like Selenium, Protractor, Playwright, Cypress & WebDriver IO
+- link "NEW! Playwright Quiz":
+  - /url: /pw-quiz
+- paragraph:
+  - text: Once we reach 1l subs, this site will become adfree.
+  - link "Software testing solutions":
+    - img
+    - text: Software testing solutions
+  - link "Software testing courses":
+    - img
+    - text: Software testing courses
+  - link "Playwright training":
+    - img
+    - text: Playwright training
+- link "🍕 Buy me a Pizza":
+  - /url: https://www.buymeacoffee.com/letcode
+- paragraph: Why did the belt go to prison? He held up a pair of pants!
+- iframe
+- heading "Workspace" [level=2]
+- paragraph: Practice like a pro!
+- link "Explore Workspace":
+  - /url: /test
+- link "Selenium training":
+  - img
+  - text: Selenium training
+- heading "Courses" [level=2]
+- paragraph: Free courses on software testing & development.
+- link "Explore Courses":
+  - /url: /courses
+- heading "Grooming" [level=2]
+- paragraph: Solve real interview questions.
+- link "Test Practice":
+  - /url: /test-practice
+- link "Interview Prep":
+  - /url: /interview
+- heading "Product" [level=2]
+- paragraph: Learn about LetXPath & build your XPath extension.
+- paragraph:
+  - link "Ortoni Report":
+    - /url: /product/ortoni-report
+- paragraph:
+  - link "LetXPath":
+    - /url: /product/letxpath
+- paragraph:
+  - link "Playwright Runner":
+    - /url: /product/playwright-runner
+- insertion:
+  - iframe
+- insertion
+- contentinfo:
+  - paragraph: LetCode by Koushik Chatterjee
+  - paragraph: Empowering Test Automation Engineers through learning
+  - paragraph:
+    - text: © 2025 LetCode | Created by
+    - link "Koushik Chatterjee":
+      - /url: https://www.linkedin.com/in/ortoni/
+    - text: "&"
+    - link "Bollineni Lakshmi Yaswanth":
+      - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+- link "Software testing solutions":
+  - img
+  - text: Software testing solutions
+- link "Software development platforms":
+  - img
+  - text: Software development platforms
+```

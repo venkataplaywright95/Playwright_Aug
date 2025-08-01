@@ -1,0 +1,4 @@
+No of columns4
+No of rowsasync count() {
+    return await this._frame._queryCount(this._selector);
+  }

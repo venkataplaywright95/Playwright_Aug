@@ -1,0 +1,14 @@
+{
+    "ModuleTEstData": {
+        "Skill1": "playwright",
+        "Skill2": "selenium",
+        "Skill3": "java"
+    },
+
+    
+      "stageTestData": {
+        "Skill1": "API",
+        "Skill2": "JAVA SCRIPT",
+        "Skill3": "Selenium"
+    }
+}

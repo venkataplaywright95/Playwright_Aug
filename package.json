@@ -1,0 +1,24 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "env:local": "cross-env $env:ENV='local'; npx playwright test google.spec.js --headed  --project chromium",
+    "env:stage":"cross-env $env:ENV='stage'; npx playwright test google.spec.js  --headed  --project chromium --project firefox --project webkit",
+  "env:stage1":"cross-env $env:ENV='stage'; npx playwright test google.spec.js  --headed  --browser --channel chrom --project firefox --project webkit"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.3.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.0.1"
+  }
+}

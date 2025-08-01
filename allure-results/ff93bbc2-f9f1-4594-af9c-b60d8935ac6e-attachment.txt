@@ -1,0 +1,63 @@
+No of columns4
+No of rows5
+Total pages4
+Table data is:1
+Table data is:Smartphone
+Table data is:$10.99
+Table data is:2
+Table data is:Laptop
+Table data is:$19.99
+Table data is:3
+Table data is:Tablet 
+Table data is:$5.99
+Table data is:4
+Table data is:Smartwatch
+Table data is:$7.99
+Table data is:5
+Table data is:Wireless Earbuds
+Table data is:$8.99
+Table data is:6
+Table data is:Bluetooth Speaker
+Table data is:$9.99
+Table data is:7
+Table data is:Television
+Table data is:$20.99
+Table data is:8
+Table data is:Action Camera
+Table data is:$15.99
+Table data is:9
+Table data is:Gaming Console
+Table data is:$5.99
+Table data is:10
+Table data is:Digital Camera
+Table data is:$16.99
+Table data is:11
+Table data is:Smart Home Hub
+Table data is:$20.99
+Table data is:12
+Table data is:Router
+Table data is:$24.99
+Table data is:13
+Table data is:Portable Charger
+Table data is:$30.99
+Table data is:14
+Table data is:Fitness Tracker
+Table data is:$19.99
+Table data is:15
+Table data is:Desktop Computer
+Table data is:$2.99
+Table data is:16
+Table data is:E-Reader
+Table data is:$10.99
+Table data is:17
+Table data is:VR Headset
+Table data is:$11.99
+Table data is:18
+Table data is:Streaming Device
+Table data is:$13.99
+Table data is:19
+Table data is:Soundbar
+Table data is:$16.99
+Table data is:20
+Table data is:Wireless Mouse 20
+Table data is:$17.99

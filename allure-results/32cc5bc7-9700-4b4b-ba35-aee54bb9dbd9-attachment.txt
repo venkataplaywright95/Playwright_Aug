@@ -1,0 +1,23 @@
+20
+[
+  'book shelf wooden',
+  'book shelf wooden',
+  'book self',
+  'book self',
+  'books bestsellers english',
+  'books bestsellers english',
+  'books for kids 9-12 years',
+  'books for kids 9-12 years',
+  'bookmark',
+  'bookmark',
+  'book organizer',
+  'book organizer',
+  'bookshelf for home',
+  'bookshelf for home',
+  'books for 2 + year old',
+  'books for 2 + year old',
+  'books for 2 year old',
+  'books for 2 year old',
+  'book holder',
+  'book holder'
+]

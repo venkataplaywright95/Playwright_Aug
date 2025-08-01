@@ -1,0 +1,150 @@
+# Page snapshot
+
+```yaml
+- navigation "main navigation":
+  - link "letcode":
+    - /url: /
+    - img "letcode"
+  - link "Work-Space":
+    - /url: /test
+  - text: Products Grooming
+  - link "Courses":
+    - /url: /courses
+  - link "Contact":
+    - /url: /contact
+  - button ""
+- heading "Table" [level=1]
+- text: Shopping List
+- paragraph: ~ Add all the prices and check if the total is correct
+- table:
+  - rowgroup:
+    - row "Items Price":
+      - cell "Items"
+      - cell "Price"
+  - rowgroup:
+    - row "Chocolate 150":
+      - cell "Chocolate"
+      - cell "150"
+    - row "Apple 180":
+      - cell "Apple"
+      - cell "180"
+    - row "Eggs 48":
+      - cell "Eggs"
+      - cell "48"
+    - row "Corn 480":
+      - cell "Corn"
+      - cell "480"
+  - rowgroup:
+    - row "Total 858":
+      - cell "Total"
+      - cell "858"
+- separator
+- text: Let's handle it😉
+- paragraph: ~ Mark Raj as present
+- table:
+  - rowgroup:
+    - row "First name Last name Email address Present/Absent":
+      - cell "First name"
+      - cell "Last name"
+      - cell "Email address"
+      - cell "Present/Absent"
+  - rowgroup:
+    - row "Koushik Chatterjee koushik@letcode.in":
+      - cell "Koushik"
+      - cell "Chatterjee"
+      - cell "koushik@letcode.in"
+      - cell:
+        - checkbox
+    - row "Yashwanth Raj yashwanth@letcode.in":
+      - cell "Yashwanth"
+      - cell "Raj"
+      - cell "yashwanth@letcode.in"
+      - cell:
+        - checkbox
+    - row "Iron Man man@letcode.in":
+      - cell "Iron"
+      - cell "Man"
+      - cell "man@letcode.in"
+      - cell:
+        - checkbox
+- separator
+- text: Sortable Tables
+- paragraph: ~ Check if the sorting is working properly
+- table:
+  - rowgroup:
+    - row "Dessert (100g) Calories Fat (g) Carbs (g) Protein (g) Cholesterol(mg)":
+      - cell "Dessert (100g)":
+        - button "Dessert (100g)"
+      - cell "Calories":
+        - button "Calories"
+      - cell "Fat (g)":
+        - button "Fat (g)"
+      - cell "Carbs (g)":
+        - button "Carbs (g)"
+      - cell "Protein (g)":
+        - button "Protein (g)"
+      - cell "Cholesterol(mg)":
+        - button "Cholesterol(mg)"
+  - rowgroup:
+    - row "Frozen yogurt 159 6 24 4 70":
+      - cell "Frozen yogurt"
+      - cell "159"
+      - cell "6"
+      - cell "24"
+      - cell "4"
+      - cell "70"
+    - row "Ice cream 237 9 37 4 40":
+      - cell "Ice cream"
+      - cell "237"
+      - cell "9"
+      - cell "37"
+      - cell "4"
+      - cell "40"
+    - row "Eclair 262 16 24 6 80":
+      - cell "Eclair"
+      - cell "262"
+      - cell "16"
+      - cell "24"
+      - cell "6"
+      - cell "80"
+    - row "Cupcake 305 4 67 4 50":
+      - cell "Cupcake"
+      - cell "305"
+      - cell "4"
+      - cell "67"
+      - cell "4"
+      - cell "50"
+    - row "Gingerbread 356 16 49 4 60":
+      - cell "Gingerbread"
+      - cell "356"
+      - cell "16"
+      - cell "49"
+      - cell "4"
+      - cell "60"
+- paragraph: Insight
+- text:  On completion of this exercise, you can learn the following concepts.
+- list:
+  - listitem: Web Table concept
+  - listitem: WebElement Interface
+  - listitem: Chaining of locators
+  - listitem: Comparable (Java)
+- iframe
+- button "Watch tutorial"
+- insertion
+- insertion
+- insertion:
+  - iframe
+- contentinfo:
+  - paragraph: LetCode by Koushik Chatterjee
+  - paragraph: Empowering Test Automation Engineers through learning
+  - paragraph:
+    - text: © 2025 LetCode | Created by
+    - link "Koushik Chatterjee":
+      - /url: https://www.linkedin.com/in/ortoni/
+    - text: "&"
+    - link "Bollineni Lakshmi Yaswanth":
+      - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+- img
+- link "Go to shopping options for Software": Software
+- button "Close shopping anchor"
+```

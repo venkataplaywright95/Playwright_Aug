@@ -1,0 +1,26 @@
+[
+
+
+
+
+    {
+
+"username": "standard_user",
+"password": "secret_sauce",
+"expected": "successful login"
+    },
+
+        {
+
+"username": "problem_use",
+"password": "secret_sauce",
+"expected": "successful login"
+    },
+
+        {
+
+"username": "performance_glitch_user",
+"password": "secret_sauce",
+"expected": "successful login"
+    }
+]

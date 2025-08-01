@@ -1,0 +1,1590 @@
+# Page snapshot
+
+```yaml
+- navigation "Shortcuts menu":
+  - heading "Skip to" [level=2]
+  - list "Skip to":
+    - listitem:
+      - link "main content":
+        - /url: "#skippedLink"
+        - text: Main content
+    - listitem:
+      - link "Results":
+        - /url: .s-asin a:has(h2)
+  - heading "Keyboard shortcuts" [level=2]
+  - list "Keyboard shortcuts":
+    - listitem:
+      - link "Search, option, forward slash"
+    - listitem:
+      - link "Cart, shift, option, c"
+    - listitem:
+      - link "Home, shift, option, h"
+    - listitem:
+      - link "Your orders, shift, option, o"
+    - listitem:
+      - button "Show/hide shortcuts, shift, option, z"
+  - text: To move between items, use your keyboard's up or down arrows.
+- banner:
+  - navigation "Primary":
+    - link "Amazon.in":
+      - /url: /ref=nav_logo
+      - text: .in
+    - button "Delivering to Hyderabad 500004 Update location"
+    - search:
+      - text: All
+      - combobox "Select the department you want to search in":
+        - option "All Categories" [selected]
+        - option "Alexa Skills"
+        - option "Amazon Devices"
+        - option "Amazon Fashion"
+        - option "Amazon Fresh"
+        - option "Amazon Fresh Meat"
+        - option "Amazon Pharmacy"
+        - option "Appliances"
+        - option "Apps & Games"
+        - option "Audible Audiobooks"
+        - option "Baby"
+        - option "Beauty"
+        - option "Books"
+        - option "Car & Motorbike"
+        - option "Clothing & Accessories"
+        - option "Collectibles"
+        - option "Computers & Accessories"
+        - option "Deals"
+        - option "Electronics"
+        - option "Furniture"
+        - option "Garden & Outdoors"
+        - option "Gift Cards"
+        - option "Grocery & Gourmet Foods"
+        - option "Health & Personal Care"
+        - option "Home & Kitchen"
+        - option "Industrial & Scientific"
+        - option "Jewellery"
+        - option "Kindle Store"
+        - option "Luggage & Bags"
+        - option "Luxury Beauty"
+        - option "Movies & TV Shows"
+        - option "MP3 Music"
+        - option "Music"
+        - option "Musical Instruments"
+        - option "Office Products"
+        - option "Pet Supplies"
+        - option "Prime Video"
+        - option "Shoes & Handbags"
+        - option "Software"
+        - option "Sports, Fitness & Outdoors"
+        - option "Subscribe & Save"
+        - option "Tools & Home Improvement"
+        - option "Toys & Games"
+        - option "Under ₹500"
+        - option "Video Games"
+        - option "Watches"
+      - searchbox "Search Amazon.in": bookmark
+      - button "Go"
+    - link "Choose a language for shopping in Amazon India. The current selection is English (EN).":
+      - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+      - img "India"
+      - text: EN
+    - button "Expand to Change Language or Country"
+    - link "Hello, sign in Account & Lists":
+      - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Dbookmark%26crid%3D3KCUM46ULJ8O0%26sprefix%3Dbook%252Caps%252C390%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+    - button "Expand Account and Lists"
+    - link "Returns & Orders":
+      - /url: /gp/css/order-history?ref_=nav_orders_first
+    - link "0 items in cart":
+      - /url: /gp/cart/view.html?ref_=nav_cart
+    - button "Open All Categories Menu": All
+    - list:
+      - listitem:
+        - link "Fresh":
+          - /url: /fresh?ref_=nav_cs_grocery
+        - button "Fresh Details"
+      - listitem:
+        - link "MX Player":
+          - /url: /minitv?ref_=nav_avod_desktop_topnav
+      - listitem:
+        - link "Sell":
+          - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+      - listitem:
+        - link "Bestsellers":
+          - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+      - listitem:
+        - link "Today's Deals":
+          - /url: /deals?ref_=nav_cs_gb
+      - listitem:
+        - link "Mobiles":
+          - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+      - listitem:
+        - link "Prime":
+          - /url: /prime?ref_=nav_cs_primelink_nonmember
+        - button "Prime Details"
+      - listitem:
+        - link "Customer Service":
+          - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+      - listitem:
+        - link "Fashion":
+          - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+      - listitem:
+        - link "New Releases":
+          - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+      - listitem:
+        - link "Home & Kitchen":
+          - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+      - listitem:
+        - link "Electronics":
+          - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+      - listitem:
+        - link "Amazon Pay":
+          - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+      - listitem:
+        - link "Computers":
+          - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+      - listitem:
+        - link "Beauty & Personal Care":
+          - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+      - listitem:
+        - link "Books":
+          - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+      - listitem:
+        - link "Car & Motorbike":
+          - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+      - listitem:
+        - link "Video Games":
+          - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+      - listitem:
+        - link "Toys & Games":
+          - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+      - listitem:
+        - link "Home Improvement":
+          - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+      - listitem:
+        - link "Gift Cards":
+          - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+      - listitem:
+        - link "Grocery & Gourmet Foods":
+          - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+      - listitem:
+        - link "Sports, Fitness & Outdoors":
+          - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+      - listitem:
+        - link "Health, Household & Personal Care":
+          - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+      - listitem:
+        - link "Custom Products":
+          - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+      - listitem:
+        - link "Baby":
+          - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+      - listitem:
+        - link "Pet Supplies":
+          - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+      - listitem:
+        - link "AmazonBasics":
+          - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+      - listitem:
+        - link "Subscribe & Save":
+          - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+      - listitem:
+        - link "Audible":
+          - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+      - listitem:
+        - link "Gift Ideas":
+          - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+    - dialog
+- 'heading "1-48 of 482 results for \"bookmark\" Sort by: Featured" [level=1]':
+  - heading "1-48 of 482 results for \"bookmark\"" [level=2]
+  - text: "Sort by:"
+  - combobox "Sort by:":
+    - option "Featured" [selected]
+    - 'option "Price: Low to High"'
+    - 'option "Price: High to Low"'
+    - option "Avg. Customer Review"
+    - option "Newest Arrivals"
+    - option "Best Sellers"
+- link "Sponsored ad from Zesta. \"Cute bookmarks for book lovers.\" Save up to 75% on Zesta.":
+  - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=auto-sparkle-hsa-tetris&aref=80Q34rmnZb&ref_=sbx_be_s_sparkle_mcd_bkgd&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+- link "Zesta":
+  - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=auto-sparkle-hsa-tetris&aref=80Q34rmnZb&ref_=sbx_be_s_sparkle_mcd_logo&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+  - img "Zesta"
+- heading "Cute bookmarks for book lovers" [level=2]:
+  - link "Cute bookmarks for book lovers":
+    - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=auto-sparkle-hsa-tetris&aref=80Q34rmnZb&ref_=sbx_be_s_sparkle_mcd_hl&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+- link "Save up to 75% on Zesta":
+  - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=auto-sparkle-hsa-tetris&aref=80Q34rmnZb&ref_=sbx_be_s_sparkle_mcd_cta&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+- list:
+  - listitem:
+    - link "Go to detail page for \"Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Harry Potter, Medium).\" Limited time Deal. Price was ₹999. Current price is ₹245 after 75% off. Not eligible for Prime.":
+      - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/gp/aw/d/B0C3M9LX14/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&qid=1753172187&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_0_bkgd&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+    - link "Limited time deal":
+      - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/gp/aw/d/B0C3M9LX14/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&qid=1753172187&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_0_badge&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+    - link "₹245 ₹999 (75% off)":
+      - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/gp/aw/d/B0C3M9LX14/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&qid=1753172187&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_0_price&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+  - listitem:
+    - link "Go to detail page for \"Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Avengers, Medium).\" Limited time Deal. Price was ₹999. Current price is ₹245 after 75% off. Not eligible for Prime.":
+      - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/gp/aw/d/B0C3M5JK9L/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&qid=1753172187&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_1_bkgd&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+    - link "Limited time deal":
+      - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/gp/aw/d/B0C3M5JK9L/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&qid=1753172187&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_1_badge&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+    - link "₹245 ₹999 (75% off)":
+      - /url: https://aax-eu.amazon.in/x/c/JDjyecmMmlZgL3repkBe4JoAAAGYMTSYgQMAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICDWU_IJ/clv1_CEuOPUxokZA0iHrVfd8PnjPhUXlFV5MruYtZ8AWkqOxwx395zE25Fv018HHz9hvVjq0yzpNb3X7OfU1UAmcAIHBBajCgB8PNFmgTa10vTmKPQ4l5skfB8IkGXCRSU-W6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezSYMqmF9_cq8d5GctvlucHrPsDuA_tZ-scsUiUAvo8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmps2WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DJ5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWy7SN2RTVUb-APN6tF1Z59XnKSul2BAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbMO-wRYGD-BrpF4bbH4bTcHBKGHgSLcNu9elrLG_ywWQjEjZ57MrjBpEe9QnEWa2ClHVwVKpYT4IoGfZG9jE6chz5q1H1wS607NINlvTCFMFVX_UyFfg1i8vC__KRq8gt9ebf0ntb7BqcbUGm1YT5ZBQoYCK7lOtnE2OAeP3T_FgTMXZ9ug_rx-pwYQzN407WQG4zXKSpP4geHY_0Pq2wNZ-3iZkc8VKDNpNuaYTvn6nLXCzsfaNHkyveqpTFk7bdHOwJRXVeAEWDK26ZKyrjzmoL2VUwJcV96TLhVZpTRRJ2Y4bJd0cNgWnCTqdqDEDGkLlv4e7wAz-Kw7IdgeR1w-1ffkC5b0z9Polt14QjAnyH36xPGVAzrUhhNKli0zwTAlvd-dGKZDVRPgFDjO3lcbDElCKYWjYH5o-ssyRpNabzIaLb61PAvQAqK1ke_n7E1zzw5zSYeXdAk8PbCp1we78_ZMjh4LO1VDu1Oy9TVLZCi2tnDZ0sHxkQJWYWTjIPGfvm7YTeSW-qC4V95I0TQvocVwCELVwrZcdUP2dD94Vi7XodFBxwcy9vPuwh9JuQ5K_tSBigmK7t5AGCxe3mgdZ6Dy8qqVOAWml2WmfsffQwOUuZZNn21rOB4ICsKZK_Rqd_pV8CPVdRIVo4FEGMPPIzA_sRNeMGTSOr7OwNJ6IzIE3-PoWfMyYkeVZvRo4V8xWMrMageDGBSCdBJy4qYl5TPCqQccKWiBJ2SQ1wMzYGonrsVAGJI2F7t01pt3zSStvs_OQ1SN2dCraMuTnliBhpboWHt12cjOQOuGkooIDnkA3yAiHEino3InnPGIVZDOW7iZ06l_uTtjeI1qa3JoFcjjDFuN7fFiXFvSlJCgCbpn6GZXYgAXis3t9HNJnXghAVI5m7FlrnuPOrtb0lqtqfsTgSvs3fMMnGr4cjpMIIUdPfuAvxTB9U9q-0EE9YkFiB9K_HEmyLXzTDy8QD5iv2NDvHZ98jHMOEPd5bKm7OE2jDYA5rI4FhV-pfjgcuH8DfCL1An3ETPGPYQd-8gffR7X3B-jBT9s/https://www.amazon.in/gp/aw/d/B0C3M5JK9L/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&qid=1753172187&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_1_price&pd_rd_w=bLVuO&content-id=amzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68%3Aamzn1.sym.cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_p=cbe1d71a-30e3-45dc-b787-bad221b13c68&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=yYUwj&pd_rd_r=85c5193f-2897-413f-8207-8396e1529992
+- button "Leave feedback on Sponsored ad": Sponsored
+- text: Showing products near you, with fast delivery
+- link "See all products, across price ranges.":
+  - /url: /s?k=bookmark&crid=3KCUM46ULJ8O0&nsdOptOutParam=true&sprefix=book%2Caps%2C390&ref=nb_sb_ss_mvt-t11-ranker_5_4
+- heading "Results" [level=2]
+- text: Check each product page for other buying options. Price and other details may vary based on product size and colour.
+- list:
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDYxMjQzMzM5OTgzMjo6MDo6&url=%2FSanatani-Magnetic-Bookmarks-Set-Cute%2Fdp%2FB0F4JYPQB4%2Fref%3Dsr_1_1_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks" [level=2]: Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks
+    - button "4.8 out of 5 stars, rating details"
+    - link "42 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDYxMjQzMzM5OTgzMjo6MDo6&url=%2FSanatani-Magnetic-Bookmarks-Set-Cute%2Fdp%2FB0F4JYPQB4%2Fref%3Dsr_1_1_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: 900+ bought in past month Price, product page
+    - 'link "₹299 ( ₹49.83 /count) M.R.P: ₹389 M.R.P: ₹389"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDYxMjQzMzM5OTgzMjo6MDo6&url=%2FSanatani-Magnetic-Bookmarks-Set-Cute%2Fdp%2FB0F4JYPQB4%2Fref%3Dsr_1_1_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+    - text: (23% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDU0NjM0NzE5OTczMjo6MDo6&url=%2FClimberty%25C2%25AE-Butterfly-Bookmark-Valentine-Christmas%2Fdp%2FB0CNGVG1V4%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift" [level=2]: Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift
+    - button "4.5 out of 5 stars, rating details"
+    - link "142 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDU0NjM0NzE5OTczMjo6MDo6&url=%2FClimberty%25C2%25AE-Butterfly-Bookmark-Valentine-Christmas%2Fdp%2FB0CNGVG1V4%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹299 M.R.P: ₹599 M.R.P: ₹599"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDU0NjM0NzE5OTczMjo6MDo6&url=%2FClimberty%25C2%25AE-Butterfly-Bookmark-Valentine-Christmas%2Fdp%2FB0CNGVG1V4%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+    - text: (50% off) FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - GRAFICATIVE Creative Bookmark for Books - Set of 6 Bookmarks for Novels | Designer, Multi-Color Bookmarks for Students and Book Lovers - 7x2 Inches":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDU5NjA2NTcyMjkzMjo6MDo6&url=%2FGRAFICATIVE-Creative-Bookmark-Books-Multi-Color%2Fdp%2FB0FCZWXNJ7%2Fref%3Dsr_1_3_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-3-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - GRAFICATIVE Creative Bookmark for Books - Set of 6 Bookmarks for Novels | Designer, Multi-Color Bookmarks for Students and Book Lovers - 7x2 Inches" [level=2]: GRAFICATIVE Creative Bookmark for Books - Set of 6 Bookmarks for Novels | Designer, Multi-Color Bookmarks for Students and Book Lovers - 7x2 Inches
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDU5NjA2NTcyMjkzMjo6MDo6&url=%2FGRAFICATIVE-Creative-Bookmark-Books-Multi-Color%2Fdp%2FB0FCZWXNJ7%2Fref%3Dsr_1_3_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-3-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: Price, product page
+    - 'link "₹79 ( ₹13.17 /piece) M.R.P: ₹399 M.R.P: ₹399"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDU5NjA2NTcyMjkzMjo6MDo6&url=%2FGRAFICATIVE-Creative-Bookmark-Books-Multi-Color%2Fdp%2FB0FCZWXNJ7%2Fref%3Dsr_1_3_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-3-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+    - text: (80% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Mon, 28 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Divine Sanatani Magnetic Bookmark Set of 6 | Bookmarks for Book Readers, Book Mark Gifts for Book Lovers | Book Marks for Books | Gift for Readers":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDYxMzQzNTY0NzkzMjo6MDo6&url=%2FSanatani-Magnetic-Bookmark-Bookmarks-Readers%2Fdp%2FB0FGFC71B8%2Fref%3Dsr_1_4_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-4-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Divine Sanatani Magnetic Bookmark Set of 6 | Bookmarks for Book Readers, Book Mark Gifts for Book Lovers | Book Marks for Books | Gift for Readers" [level=2]: Divine Sanatani Magnetic Bookmark Set of 6 | Bookmarks for Book Readers, Book Mark Gifts for Book Lovers | Book Marks for Books | Gift for Readers
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDYxMzQzNTY0NzkzMjo6MDo6&url=%2FSanatani-Magnetic-Bookmark-Bookmarks-Readers%2Fdp%2FB0FGFC71B8%2Fref%3Dsr_1_4_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-4-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: Price, product page
+    - 'link "₹299 ( ₹49.83 /count) M.R.P: ₹389 M.R.P: ₹389"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYXRmOjMwMDYxMzQzNTY0NzkzMjo6MDo6&url=%2FSanatani-Magnetic-Bookmark-Bookmarks-Readers%2Fdp%2FB0FGFC71B8%2Fref%3Dsr_1_4_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-4-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&sp_cr=DUB
+    - text: (23% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - group "Amazon's Choice for \"bookmark\""
+    - link "CJ'S Designer Bookmarks Set of 10 (7 x 2 Inches) With Free Sticker - Motivational, Multi-Color, Good for Gift for Book Lovers (What You See in The Photo is What You Get)":
+      - /url: /Designer-Bookmarks-Sticker-Motivational-Multi-Color/dp/B0CKKWXDNY/ref=sr_1_5?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-5
+      - heading "CJ'S Designer Bookmarks Set of 10 (7 x 2 Inches) With Free Sticker - Motivational, Multi-Color, Good for Gift for Book Lovers (What You See in The Photo is What You Get)" [level=2]
+    - button "4.7 out of 5 stars, rating details"
+    - link "425 ratings":
+      - /url: /Designer-Bookmarks-Sticker-Motivational-Multi-Color/dp/B0CKKWXDNY/ref=sr_1_5?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-5#customerReviews
+    - text: 400+ bought in past month Price, product page
+    - 'link "₹100 ( ₹10 /count) M.R.P: ₹249 M.R.P: ₹249"':
+      - /url: /Designer-Bookmarks-Sticker-Motivational-Multi-Color/dp/B0CKKWXDNY/ref=sr_1_5?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-5
+    - text: (60% off) Delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - group "Best seller in Bookmarks"
+    - link "Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Harry Potter, Medium)":
+      - /url: /Zesta-Accessories-Magnetic-Bookmarks-Aesthetic/dp/B0C3M9LX14/ref=sr_1_6?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-6
+      - heading "Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Harry Potter, Medium)" [level=2]
+    - button "3.9 out of 5 stars, rating details"
+    - link "650 ratings":
+      - /url: /Zesta-Accessories-Magnetic-Bookmarks-Aesthetic/dp/B0C3M9LX14/ref=sr_1_6?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-6#customerReviews
+    - text: 1K+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹245 ( ₹35 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Zesta-Accessories-Magnetic-Bookmarks-Aesthetic/dp/B0C3M9LX14/ref=sr_1_6?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-6
+    - text: (75% off) Save 1% with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks":
+      - /url: /Sanatani-Magnetic-Bookmarks-Set-Cute/dp/B0F4JYPQB4/ref=sr_1_7?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-7
+      - heading "Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks" [level=2]
+    - button "4.8 out of 5 stars, rating details"
+    - link "42 ratings":
+      - /url: /Sanatani-Magnetic-Bookmarks-Set-Cute/dp/B0F4JYPQB4/ref=sr_1_7?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-7#customerReviews
+    - text: 900+ bought in past month Price, product page
+    - 'link "₹299 ( ₹49.83 /count) M.R.P: ₹389 M.R.P: ₹389"':
+      - /url: /Sanatani-Magnetic-Bookmarks-Set-Cute/dp/B0F4JYPQB4/ref=sr_1_7?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-7
+    - text: (23% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+- heading "Trending now" [level=2]
+- button "View Sponsored information or leave ad feedback": Sponsored
+- group "Trending now":
+  - group:
+    - list:
+      - listitem "1 of 5":
+        - link "Sponsored Ad - Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU0NjM0NzE5OTczMjo6MDo6&url=%2FClimberty%25C2%25AE-Butterfly-Bookmark-Valentine-Christmas%2Fdp%2FB0CNGVG1V4%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0CNGVG1V4%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-1-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift" [level=2]: Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift
+        - button "4.5 out of 5 stars, rating details"
+        - link "142 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU0NjM0NzE5OTczMjo6MDo6&url=%2FClimberty%25C2%25AE-Butterfly-Bookmark-Valentine-Christmas%2Fdp%2FB0CNGVG1V4%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0CNGVG1V4%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-1-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB#customerReviews
+        - text: 100+ bought in past month Price, product page
+        - 'link "₹299 M.R.P: ₹599 M.R.P: ₹599"':
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU0NjM0NzE5OTczMjo6MDo6&url=%2FClimberty%25C2%25AE-Butterfly-Bookmark-Valentine-Christmas%2Fdp%2FB0CNGVG1V4%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0CNGVG1V4%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-1-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+        - text: (50% off)
+      - listitem "2 of 5":
+        - link "Sponsored Ad - Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjIwMDU2NjYzMzk0MTk4OjoxOjo&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0B27T7VFG%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-2-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts" [level=2]: Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts
+        - button "4.5 out of 5 stars, rating details"
+        - link "299 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjIwMDU2NjYzMzk0MTk4OjoxOjo&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0B27T7VFG%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-2-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB#customerReviews
+        - link "Limited time deal":
+          - /url: /deals
+        - text: Price, product page
+        - 'link "₹357 M.R.P: ₹550 M.R.P: ₹550"':
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjIwMDU2NjYzMzk0MTk4OjoxOjo&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0B27T7VFG%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-2-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+        - text: (35% off) Buy 2 items, get 3% off
+      - listitem "3 of 5":
+        - link "Sponsored Ad - OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids.":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU5Mzg1NTQwODUzMjo6Mjo6&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F5GKY799%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-3-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids." [level=2]: OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids.
+        - button "4.5 out of 5 stars, rating details"
+        - link "12 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU5Mzg1NTQwODUzMjo6Mjo6&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F5GKY799%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-3-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB#customerReviews
+        - text: 200+ bought in past month
+        - link "Limited time deal":
+          - /url: /deals
+        - text: Price, product page
+        - 'link "₹499 M.R.P: ₹749 M.R.P: ₹749"':
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU5Mzg1NTQwODUzMjo6Mjo6&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F5GKY799%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-3-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+        - text: (33% off) Buy 2 items, get 3% off
+        - img "Amazon Prime"
+      - listitem "4 of 5":
+        - link "Sponsored Ad - Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYxMjQzMzM5OTgzMjo6Mzo6&url=%2FSanatani-Magnetic-Bookmarks-Set-Cute%2Fdp%2FB0F4JYPQB4%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F4JYPQB4%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-4-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks" [level=2]: Sanatani Magnetic Bookmarks Set of 6, Cute Magnetic Bookmarks
+        - button "4.8 out of 5 stars, rating details"
+        - link "42 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYxMjQzMzM5OTgzMjo6Mzo6&url=%2FSanatani-Magnetic-Bookmarks-Set-Cute%2Fdp%2FB0F4JYPQB4%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F4JYPQB4%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-4-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB#customerReviews
+        - text: 900+ bought in past month Price, product page
+        - 'link "₹299 ( ₹49.83 /count) M.R.P: ₹389 M.R.P: ₹389"':
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDYxMjQzMzM5OTgzMjo6Mzo6&url=%2FSanatani-Magnetic-Bookmarks-Set-Cute%2Fdp%2FB0F4JYPQB4%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F4JYPQB4%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-4-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+        - text: (23% off)
+        - img "Amazon Prime"
+      - listitem "5 of 5":
+        - link "Sponsored Ad - Tree Bookmarks, Set of Three, Bookmark, Wood, Wood Bookmark, Gift, Gift for him, Gift for her, Self Gift":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU3MDg4MDgwMzMzMjo6NDo6&url=%2FTree-Bookmarks-Three-Bookmark-Wood%2Fdp%2FB09NW63P9M%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB09NW63P9M%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-5-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - Tree Bookmarks, Set of Three, Bookmark, Wood, Wood Bookmark, Gift, Gift for him, Gift for her, Self Gift" [level=2]: Tree Bookmarks, Set of Three, Bookmark, Wood, Wood Bookmark, Gift, Gift for him, Gift for her, Self Gift
+        - button "4.1 out of 5 stars, rating details"
+        - link "135 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU3MDg4MDgwMzMzMjo6NDo6&url=%2FTree-Bookmarks-Three-Bookmark-Wood%2Fdp%2FB09NW63P9M%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB09NW63P9M%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-5-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB#customerReviews
+        - text: Price, product page
+        - 'link "₹189 ( ₹63 /piece) M.R.P: ₹449 M.R.P: ₹449"':
+          - /url: /sspa/click?ie=UTF8&spc=MToxOTkxOTQ1NDA1OTE1NTA4OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDU3MDg4MDgwMzMzMjo6NDo6&url=%2FTree-Bookmarks-Three-Bookmark-Wood%2Fdp%2FB09NW63P9M%2Fref%3Dsxin_14_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%253Aamzn1.sym.739e670d-dfb3-4be0-9815-d8c5c0372e07%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB09NW63P9M%26pd_rd_r%3De9c101af-7e83-4fc5-b561-9e3e25463e2b%26pd_rd_w%3DOnaKe%26pd_rd_wg%3DLP8fa%26pf_rd_p%3D739e670d-dfb3-4be0-9815-d8c5c0372e07%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-5-66673dcf-083f-43ba-b782-d4a436cc5cfb-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&sp_cr=DUB
+        - text: (58% off)
+        - img "Amazon Prime"
+- heading "More results" [level=2]
+- list:
+  - listitem:
+    - link "Malhotra Print Shop Inspirational Bookmarks, 30 Pieces, 350 GSM Paper, Watercolour Design with Motivational Quotes":
+      - /url: /Malhotra-Print-Shop-Inspirational-Motivational/dp/B0F74JFRV9/ref=sr_1_8?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-8
+      - heading "Malhotra Print Shop Inspirational Bookmarks, 30 Pieces, 350 GSM Paper, Watercolour Design with Motivational Quotes" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "5 ratings":
+      - /url: /Malhotra-Print-Shop-Inspirational-Motivational/dp/B0F74JFRV9/ref=sr_1_8?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-8#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹179 ( ₹5.97 /count) M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /Malhotra-Print-Shop-Inspirational-Motivational/dp/B0F74JFRV9/ref=sr_1_8?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-8
+    - text: (64% off) FREE delivery Sat, 26 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "Papboo Pack of 6 Seasons Magnetic Bookmarks,Matte Finished Gifts for Book Readers Writers,Aesthetic Bookmarks":
+      - /url: /Seasons-Magnetic-Bookmarks-Finished-Aesthetic/dp/B0CJ3FP716/ref=sr_1_9?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-9
+      - heading "Papboo Pack of 6 Seasons Magnetic Bookmarks,Matte Finished Gifts for Book Readers Writers,Aesthetic Bookmarks" [level=2]
+    - button "3.8 out of 5 stars, rating details"
+    - link "123 ratings":
+      - /url: /Seasons-Magnetic-Bookmarks-Finished-Aesthetic/dp/B0CJ3FP716/ref=sr_1_9?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-9#customerReviews
+    - text: 200+ bought in past month Price, product page
+    - link "₹249 ( ₹41.50 /piece)":
+      - /url: /Seasons-Magnetic-Bookmarks-Finished-Aesthetic/dp/B0CJ3FP716/ref=sr_1_9?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-9
+    - text: FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Sanchi Homes | 3D Tanjiro Demon Slayer Layered Bookmark | Black and Red Flame Design, 15 x 5 cm, Collectible Anime Accessory | Perfect for Gifting | for Readers and Book Lovers | Unique 3D Design":
+      - /url: /Sanchi-Homes-Bookmark-Collectible-Accessory/dp/B0FCDMC96G/ref=sr_1_10?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-10
+      - heading "Sanchi Homes | 3D Tanjiro Demon Slayer Layered Bookmark | Black and Red Flame Design, 15 x 5 cm, Collectible Anime Accessory | Perfect for Gifting | for Readers and Book Lovers | Unique 3D Design" [level=2]
+    - button "4.6 out of 5 stars, rating details"
+    - link "3 ratings":
+      - /url: /Sanchi-Homes-Bookmark-Collectible-Accessory/dp/B0FCDMC96G/ref=sr_1_10?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-10#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹179 M.R.P: ₹299 M.R.P: ₹299"':
+      - /url: /Sanchi-Homes-Bookmark-Collectible-Accessory/dp/B0FCDMC96G/ref=sr_1_10?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-10
+    - text: (40% off) Save 2% with coupon
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Papboo Designer Bookmarks Set of 30, Design- 1 - Specially Designed for Book, Artcard, Matte Finished,NO Repeat Designs, Multi-Color Bookmark (6 * 2 inches)":
+      - /url: /Papboo-Designer-Bookmarks-Set-Design/dp/B0B71RFWMH/ref=sr_1_11?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-11
+      - heading "Papboo Designer Bookmarks Set of 30, Design- 1 - Specially Designed for Book, Artcard, Matte Finished,NO Repeat Designs, Multi-Color Bookmark (6 * 2 inches)" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "419 ratings":
+      - /url: /Papboo-Designer-Bookmarks-Set-Design/dp/B0B71RFWMH/ref=sr_1_11?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-11#customerReviews
+    - text: 200+ bought in past month Price, product page
+    - 'link "₹279 ( ₹9.30 /piece) M.R.P: ₹399 M.R.P: ₹399"':
+      - /url: /Papboo-Designer-Bookmarks-Set-Design/dp/B0B71RFWMH/ref=sr_1_11?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-11
+    - text: (30% off) FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+    - text: More Buying Choices ₹269
+    - link "(2 new offers)":
+      - /url: /gp/offer-listing/B0B71RFWMH/ref=sr_1_11_olp?keywords=bookmark&crid=3KCUM46ULJ8O0&sprefix=book%2Caps%2C390&dib_tag=se&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&qid=1753172187&sr=8-11
+  - listitem:
+    - link "OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids.":
+      - /url: /OFIFO%C2%AE-Bookmark-Artistic-Readers-Students/dp/B0F5GKY799/ref=sr_1_12?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-12
+      - heading "OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids." [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "12 ratings":
+      - /url: /OFIFO%C2%AE-Bookmark-Artistic-Readers-Students/dp/B0F5GKY799/ref=sr_1_12?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-12#customerReviews
+    - text: 200+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹499 M.R.P: ₹749 M.R.P: ₹749"':
+      - /url: /OFIFO%C2%AE-Bookmark-Artistic-Readers-Students/dp/B0F5GKY799/ref=sr_1_12?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-12
+    - text: (33% off) Buy 2 items, get 3% off
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - group "Best seller in Bookmarks"
+    - link "Zesta 3D Cute Magnetic Book Marks | Gifts for Book Lovers | Aesthetic Cartoon Magnetic Bookmarks (Friends, Medium)":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8DPHCC/ref=sr_1_13?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-13
+      - heading "Zesta 3D Cute Magnetic Book Marks | Gifts for Book Lovers | Aesthetic Cartoon Magnetic Bookmarks (Friends, Medium)" [level=2]
+    - button "3.9 out of 5 stars, rating details"
+    - link "650 ratings":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8DPHCC/ref=sr_1_13?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-13#customerReviews
+    - text: 100+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹245 ( ₹35 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8DPHCC/ref=sr_1_13?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-13
+    - text: (75% off) Save 1% with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "6 PCS Smart Bookmark, Bookmarks for Women and Men Cool Book Accessories Cute Book Mark Bible Book Markers Book Marks for Reading Book Lovers Gifts Bookish Gifts Birthday Party Favors for Kids(Style C)":
+      - /url: /Bookmark-Bookmarks-Accessories-Markers-Birthday/dp/B0CZRDSG9S/ref=sr_1_14?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-14
+      - heading "6 PCS Smart Bookmark, Bookmarks for Women and Men Cool Book Accessories Cute Book Mark Bible Book Markers Book Marks for Reading Book Lovers Gifts Bookish Gifts Birthday Party Favors for Kids(Style C)" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "85 ratings":
+      - /url: /Bookmark-Bookmarks-Accessories-Markers-Birthday/dp/B0CZRDSG9S/ref=sr_1_14?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-14#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹299 ( ₹49.83 /count) M.R.P: ₹599 M.R.P: ₹599"':
+      - /url: /Bookmark-Bookmarks-Accessories-Markers-Birthday/dp/B0CZRDSG9S/ref=sr_1_14?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-14
+    - text: (50% off) FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+- link "Sponsored video; click to navigate to featured product page. Genesis Arts Stainless Steel Bookmark Gifts | Metallic Pencil Design Bookmarks for BookReaders, Journals, Diaries, Novels Lovers | Birthday Gifting for Friends, Students, Teachers, Girlfriend":
+  - /url: https://aax-eu.amazon.in/x/c/JJ4fJI92yCN-smyxkkwM2d8AAAGYMTSYigMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDw3_Ho/clv1_CEuOPUxokZA0iHrVXOd9wCCLSlFaCeQkvrMozgCj5dEu138EzE25Fv018HHz9hvVjq0yzpNb3X7OfU0DAmcAAUgzNCPKHOvSSB8cbGVecGeIDrQnokfB8IkGXCQAUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUewLEF9aqnfQKzeJsb_TKpcboDemUNJxN_-xyWSs-vo8C-9FHE6Fj0W5fDGy7yyiJ4rUWdh2ZYzR9qVSij0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2LU1I_b4gQJTxhyvljNqERnQoi_4DYAQVOaHVciddD0r4pAxUEQBuxsH07pAHcduF-7Ql65mRYxO8W1rERN0HrIH4Y_JHhHKPT35TfAHEMHiTRg0vDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TAh4gwHLv9NeX-FWp7CDnHMytveGL76Xr9Gkikiz-TzB7lMUzgns0G-7mmbKo9kGq9oEngDBDssBd7QNM86qxMK_0AhnMyIzMjiRtifj0WlEJkx7RWA0ATLI9mWUpw3kRuvmvYeHiOPp4TC4aq9ta8Ctc-Du61-AcS10I-EaXBdOEGZFQ5X41T-YZF4uDTiG0pBxwCsaUakYyb_76iZJ3ylEPvy8oENx7a1frRJ3eF60DL61ORn7aKd8GshhemKrWrTKDT8oKKyyWLOborbYWSmFmIZ_VeoTMF1RErydJnSvKOJ0rV1cB4OvlPfNl94Tav3mhz8oIfpApHQdXG4LAPH0ICLULdAPvaLGrLav2xmr0EzN3YY_iiZAXpQIPiWoCX3j22nYQyYJo2PeLfKJ6fMEgbF4xWfw48d-LmHlEE8FV3-F22qliyMVNbXKQ6AqsdCUZHP2Z6JqYZcKkDN4zpZRtd-z_jSit0mzJsvcbuFZecGCz9MOjDKpwZoJPIphcHa4zUnn2-AaaEgj0ovKsuwO2npQV5B3AuBNuaU_iGSlKWzttemRC0HLWLxAEQfbdHWWXRj9ZDYgDoedVb2NqiKEKG9R67YJzaftulR9MVdIwpYAHbdzJRX_LwmB8j4oAUXAgoDesw7-KDfxaHHT9DyZfcY-4L4sz-E562d7kFruGFikAWVuzos0i9iji3riewlrbfEzFJXXL_gkCTPYr_ydDlyLFHypH5QisPe_1JOdwYbWUblxAvQHsPVkeP2kBkLOxqynX_TkeWUERi1M8sD9zIAa27PNwGL93ey9TgnYHinzmSlov1d3HpW0TXXFF07037Y2dWO-txxKwIZXRBvaVE4tL_NulvI7SP2CF80AhKnyTHsSxc2-mvSdpuh-U6u_6RBYljGoiptLFRjUwAddtze4h5dBEjfKw2qptfvqnM9UXalv40r8PccRhbIMxiSSooZCKvBQUqAc-G4GTcfO4QL3Ute3Ezfa9520OMKPt5pr5MNQePe5jqR1riAlV8xjKLAwgdT-Y1fmMY20groOTOiGasd7UiM31TxujtDmBbfvnHk_JY2D5oIEvfyNeCtjqsCEzg9Cd1XtG_iFlx9U7O85d5_UvIsVrXsOEwtg4K7nV4cc4CKZNjBx-qG6ciMjTPvu5YW6e4-NG0D21ONGcTaIc61KQplEi0iLQ43GiixJkLKvcbpTfMPIMZy7u7qcNEh6vCojj-CG7ZC81rEoI5LgHqx1dYY4QKsdldoUalENZPUpxXhiGJWL9GsAZl8OQcHxKnuADCXzKC0tBIPj0tncI_sMjlMOEPfmD8Y0STrKae5vy9cDjnGZWiMujD5uAl4IV1CJGEXK7TOAEJSO7g0Z3HLAAYaKL8TsQeCdcevaKvhyAmgRbysFn_eAVPU8zfukyhngavFh6O_1trNgQhcEdww/https://www.amazon.in/dp/B0B4W5981Q?pd_rd_i=B0B4W5981Q&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=LP8fa&pd_rd_w=MsJmy&pd_rd_r=e9c101af-7e83-4fc5-b561-9e3e25463e2b
+- text: Sponsored
+- link "Genesis Arts Stainless Steel Bookmark Gifts | Metallic Pencil Design Bookmarks for BookReaders, Journals, Diaries, Novels Lovers | Birthday Gifting for Friends, Students, Teachers, Girlfriend":
+  - /url: https://aax-eu.amazon.in/x/c/JJ4fJI92yCN-smyxkkwM2d8AAAGYMTSYigMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDw3_Ho/clv1_CEuOPUxokZA0iHrVXOd9wCCLSlFaCeQkvrMozgCj5dEu138EzE25Fv018HHz9hvVjq0yzpNb3X7OfU0DAmcAAUgzNCPKHOvSSB8cbGVecGeIDrQnokfB8IkGXCQAUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUewLEF9aqnfQKzeJsb_TKpcboDemUNJxN_-xyWSs-vo8C-9FHE6Fj0W5fDGy7yyiJ4rUWdh2ZYzR9qVSij0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2LU1I_b4gQJTxhyvljNqERnQoi_4DYAQVOaHVciddD0r4pAxUEQBuxsH07pAHcduF-7Ql65mRYxO8W1rERN0HrIH4Y_JHhHKPT35TfAHEMHiTRg0vDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TAh4gwHLv9NeX-FWp7CDnHMytveGL76Xr9Gkikiz-TzB7lMUzgns0G-7mmbKo9kGq9oEngDBDssBd7QNM86qxMK_0AhnMyIzMjiRtifj0WlEJkx7RWA0ATLI9mWUpw3kRuvmvYeHiOPp4TC4aq9ta8Ctc-Du61-AcS10I-EaXBdOEGZFQ5X41T-YZF4uDTiG0pBxwCsaUakYyb_76iZJ3ylEPvy8oENx7a1frRJ3eF60DL61ORn7aKd8GshhemKrWrTKDT8oKKyyWLOborbYWSmFmIZ_VeoTMF1RErydJnSvKOJ0rV1cB4OvlPfNl94Tav3mhz8oIfpApHQdXG4LAPH0ICLULdAPvaLGrLav2xmr0EzN3YY_iiZAXpQIPiWoCX3j22nYQyYJo2PeLfKJ6fMEgbF4xWfw48d-LmHlEE8FV3-F22qliyMVNbXKQ6AqsdCUZHP2Z6JqYZcKkDN4zpZRtd-z_jSit0mzJsvcbuFZecGCz9MOjDKpwZoJPIphcHa4zUnn2-AaaEgj0ovKsuwO2npQV5B3AuBNuaU_iGSlKWzttemRC0HLWLxAEQfbdHWWXRj9ZDYgDoedVb2NqiKEKG9R67YJzaftulR9MVdIwpYAHbdzJRX_LwmB8j4oAUXAgoDesw7-KDfxaHHT9DyZfcY-4L4sz-E562d7kFruGFikAWVuzos0i9iji3riewlrbfEzFJXXL_gkCTPYr_ydDlyLFHypH5QisPe_1JOdwYbWUblxAvQHsPVkeP2kBkLOxqynX_TkeWUERi1M8sD9zIAa27PNwGL93ey9TgnYHinzmSlov1d3HpW0TXXFF07037Y2dWO-txxKwIZXRBvaVE4tL_NulvI7SP2CF80AhKnyTHsSxc2-mvSdpuh-U6u_6RBYljGoiptLFRjUwAddtze4h5dBEjfKw2qptfvqnM9UXalv40r8PccRhbIMxiSSooZCKvBQUqAc-G4GTcfO4QL3Ute3Ezfa9520OMKPt5pr5MNQePe5jqR1riAlV8xjKLAwgdT-Y1fmMY20groOTOiGasd7UiM31TxujtDmBbfvnHk_JY2D5oIEvfyNeCtjqsCEzg9Cd1XtG_iFlx9U7O85d5_UvIsVrXsOEwtg4K7nV4cc4CKZNjBx-qG6ciMjTPvu5YW6e4-NG0D21ONGcTaIc61KQplEi0iLQ43GiixJkLKvcbpTfMPIMZy7u7qcNEh6vCojj-CG7ZC81rEoI5LgHqx1dYY4QKsdldoUalENZPUpxXhiGJWL9GsAZl8OQcHxKnuADCXzKC0tBIPj0tncI_sMjlMOEPfmD8Y0STrKae5vy9cDjnGZWiMujD5uAl4IV1CJGEXK7TOAEJSO7g0Z3HLAAYaKL8TsQeCdcevaKvhyAmgRbysFn_eAVPU8zfukyhngavFh6O_1trNgQhcEdww/https://www.amazon.in/GENESIS-ARTS-Stainless-Bookmarks-journals/dp/B0B4W5981Q/ref=sxin_23_sbv_search_btf?content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=3KCUM46ULJ8O0&cv_ct_cx=bookmark&keywords=bookmark&pd_rd_i=B0B4W5981Q&pd_rd_r=e9c101af-7e83-4fc5-b561-9e3e25463e2b&pd_rd_w=MsJmy&pd_rd_wg=LP8fa&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&qid=1753172187&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=book%2Caps%2C390&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+  - heading "Genesis Arts Stainless Steel Bookmark Gifts | Metallic Pencil Design Bookmarks for BookReaders, Journals, Diaries, Novels Lovers | Birthday Gifting for Friends, Students, Teachers, Girlfriend" [level=2]
+- button "4.3 out of 5 stars, rating details"
+- link "62 ratings":
+  - /url: https://aax-eu.amazon.in/x/c/JJ4fJI92yCN-smyxkkwM2d8AAAGYMTSYigMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDw3_Ho/clv1_CEuOPUxokZA0iHrVXOd9wCCLSlFaCeQkvrMozgCj5dEu138EzE25Fv018HHz9hvVjq0yzpNb3X7OfU0DAmcAAUgzNCPKHOvSSB8cbGVecGeIDrQnokfB8IkGXCQAUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUewLEF9aqnfQKzeJsb_TKpcboDemUNJxN_-xyWSs-vo8C-9FHE6Fj0W5fDGy7yyiJ4rUWdh2ZYzR9qVSij0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2LU1I_b4gQJTxhyvljNqERnQoi_4DYAQVOaHVciddD0r4pAxUEQBuxsH07pAHcduF-7Ql65mRYxO8W1rERN0HrIH4Y_JHhHKPT35TfAHEMHiTRg0vDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TAh4gwHLv9NeX-FWp7CDnHMytveGL76Xr9Gkikiz-TzB7lMUzgns0G-7mmbKo9kGq9oEngDBDssBd7QNM86qxMK_0AhnMyIzMjiRtifj0WlEJkx7RWA0ATLI9mWUpw3kRuvmvYeHiOPp4TC4aq9ta8Ctc-Du61-AcS10I-EaXBdOEGZFQ5X41T-YZF4uDTiG0pBxwCsaUakYyb_76iZJ3ylEPvy8oENx7a1frRJ3eF60DL61ORn7aKd8GshhemKrWrTKDT8oKKyyWLOborbYWSmFmIZ_VeoTMF1RErydJnSvKOJ0rV1cB4OvlPfNl94Tav3mhz8oIfpApHQdXG4LAPH0ICLULdAPvaLGrLav2xmr0EzN3YY_iiZAXpQIPiWoCX3j22nYQyYJo2PeLfKJ6fMEgbF4xWfw48d-LmHlEE8FV3-F22qliyMVNbXKQ6AqsdCUZHP2Z6JqYZcKkDN4zpZRtd-z_jSit0mzJsvcbuFZecGCz9MOjDKpwZoJPIphcHa4zUnn2-AaaEgj0ovKsuwO2npQV5B3AuBNuaU_iGSlKWzttemRC0HLWLxAEQfbdHWWXRj9ZDYgDoedVb2NqiKEKG9R67YJzaftulR9MVdIwpYAHbdzJRX_LwmB8j4oAUXAgoDesw7-KDfxaHHT9DyZfcY-4L4sz-E562d7kFruGFikAWVuzos0i9iji3riewlrbfEzFJXXL_gkCTPYr_ydDlyLFHypH5QisPe_1JOdwYbWUblxAvQHsPVkeP2kBkLOxqynX_TkeWUERi1M8sD9zIAa27PNwGL93ey9TgnYHinzmSlov1d3HpW0TXXFF07037Y2dWO-txxKwIZXRBvaVE4tL_NulvI7SP2CF80AhKnyTHsSxc2-mvSdpuh-U6u_6RBYljGoiptLFRjUwAddtze4h5dBEjfKw2qptfvqnM9UXalv40r8PccRhbIMxiSSooZCKvBQUqAc-G4GTcfO4QL3Ute3Ezfa9520OMKPt5pr5MNQePe5jqR1riAlV8xjKLAwgdT-Y1fmMY20groOTOiGasd7UiM31TxujtDmBbfvnHk_JY2D5oIEvfyNeCtjqsCEzg9Cd1XtG_iFlx9U7O85d5_UvIsVrXsOEwtg4K7nV4cc4CKZNjBx-qG6ciMjTPvu5YW6e4-NG0D21ONGcTaIc61KQplEi0iLQ43GiixJkLKvcbpTfMPIMZy7u7qcNEh6vCojj-CG7ZC81rEoI5LgHqx1dYY4QKsdldoUalENZPUpxXhiGJWL9GsAZl8OQcHxKnuADCXzKC0tBIPj0tncI_sMjlMOEPfmD8Y0STrKae5vy9cDjnGZWiMujD5uAl4IV1CJGEXK7TOAEJSO7g0Z3HLAAYaKL8TsQeCdcevaKvhyAmgRbysFn_eAVPU8zfukyhngavFh6O_1trNgQhcEdww/https://www.amazon.in/GENESIS-ARTS-Stainless-Bookmarks-journals/dp/B0B4W5981Q/ref=sxin_23_sbv_search_btf?content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=3KCUM46ULJ8O0&cv_ct_cx=bookmark&keywords=bookmark&pd_rd_i=B0B4W5981Q&pd_rd_r=e9c101af-7e83-4fc5-b561-9e3e25463e2b&pd_rd_w=MsJmy&pd_rd_wg=LP8fa&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&qid=1753172187&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=book%2Caps%2C390&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81#customerReviews
+- text: Price, product page
+- 'link "₹299 M.R.P: ₹599 M.R.P: ₹599"':
+  - /url: https://aax-eu.amazon.in/x/c/JJ4fJI92yCN-smyxkkwM2d8AAAGYMTSYigMAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDw3_Ho/clv1_CEuOPUxokZA0iHrVXOd9wCCLSlFaCeQkvrMozgCj5dEu138EzE25Fv018HHz9hvVjq0yzpNb3X7OfU0DAmcAAUgzNCPKHOvSSB8cbGVecGeIDrQnokfB8IkGXCQAUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUewLEF9aqnfQKzeJsb_TKpcboDemUNJxN_-xyWSs-vo8C-9FHE6Fj0W5fDGy7yyiJ4rUWdh2ZYzR9qVSij0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq86WXy4dCTTLqaFKWEG2vEWUYQR5WaRd-NWXKXNt_6mgwAGvbmtDCdGXvtFS_CF8CoIymgGwjQSZ6zz9CBRvUEkOcgmDU2TPNZf2bSaWBD9t80ENAnfyX2DZEaVnuuFlcRCdkrZwltwGIyffMSBcrRFM49kMurj5gHo1hoWBxbIZR1XV_iKvQa2LU1I_b4gQJTxhyvljNqERnQoi_4DYAQVOaHVciddD0r4pAxUEQBuxsH07pAHcduF-7Ql65mRYxO8W1rERN0HrIH4Y_JHhHKPT35TfAHEMHiTRg0vDbPdr8BJm-NIGG4Cpvf5vKwPIpG7x7xLCM3TuASh2rzfNL3VYn-NgSMUsZBWi21ogFNBtg2Bls6eKUmO6cPi6TAh4gwHLv9NeX-FWp7CDnHMytveGL76Xr9Gkikiz-TzB7lMUzgns0G-7mmbKo9kGq9oEngDBDssBd7QNM86qxMK_0AhnMyIzMjiRtifj0WlEJkx7RWA0ATLI9mWUpw3kRuvmvYeHiOPp4TC4aq9ta8Ctc-Du61-AcS10I-EaXBdOEGZFQ5X41T-YZF4uDTiG0pBxwCsaUakYyb_76iZJ3ylEPvy8oENx7a1frRJ3eF60DL61ORn7aKd8GshhemKrWrTKDT8oKKyyWLOborbYWSmFmIZ_VeoTMF1RErydJnSvKOJ0rV1cB4OvlPfNl94Tav3mhz8oIfpApHQdXG4LAPH0ICLULdAPvaLGrLav2xmr0EzN3YY_iiZAXpQIPiWoCX3j22nYQyYJo2PeLfKJ6fMEgbF4xWfw48d-LmHlEE8FV3-F22qliyMVNbXKQ6AqsdCUZHP2Z6JqYZcKkDN4zpZRtd-z_jSit0mzJsvcbuFZecGCz9MOjDKpwZoJPIphcHa4zUnn2-AaaEgj0ovKsuwO2npQV5B3AuBNuaU_iGSlKWzttemRC0HLWLxAEQfbdHWWXRj9ZDYgDoedVb2NqiKEKG9R67YJzaftulR9MVdIwpYAHbdzJRX_LwmB8j4oAUXAgoDesw7-KDfxaHHT9DyZfcY-4L4sz-E562d7kFruGFikAWVuzos0i9iji3riewlrbfEzFJXXL_gkCTPYr_ydDlyLFHypH5QisPe_1JOdwYbWUblxAvQHsPVkeP2kBkLOxqynX_TkeWUERi1M8sD9zIAa27PNwGL93ey9TgnYHinzmSlov1d3HpW0TXXFF07037Y2dWO-txxKwIZXRBvaVE4tL_NulvI7SP2CF80AhKnyTHsSxc2-mvSdpuh-U6u_6RBYljGoiptLFRjUwAddtze4h5dBEjfKw2qptfvqnM9UXalv40r8PccRhbIMxiSSooZCKvBQUqAc-G4GTcfO4QL3Ute3Ezfa9520OMKPt5pr5MNQePe5jqR1riAlV8xjKLAwgdT-Y1fmMY20groOTOiGasd7UiM31TxujtDmBbfvnHk_JY2D5oIEvfyNeCtjqsCEzg9Cd1XtG_iFlx9U7O85d5_UvIsVrXsOEwtg4K7nV4cc4CKZNjBx-qG6ciMjTPvu5YW6e4-NG0D21ONGcTaIc61KQplEi0iLQ43GiixJkLKvcbpTfMPIMZy7u7qcNEh6vCojj-CG7ZC81rEoI5LgHqx1dYY4QKsdldoUalENZPUpxXhiGJWL9GsAZl8OQcHxKnuADCXzKC0tBIPj0tncI_sMjlMOEPfmD8Y0STrKae5vy9cDjnGZWiMujD5uAl4IV1CJGEXK7TOAEJSO7g0Z3HLAAYaKL8TsQeCdcevaKvhyAmgRbysFn_eAVPU8zfukyhngavFh6O_1trNgQhcEdww/https://www.amazon.in/GENESIS-ARTS-Stainless-Bookmarks-journals/dp/B0B4W5981Q/ref=sxin_23_sbv_search_btf?content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&crid=3KCUM46ULJ8O0&cv_ct_cx=bookmark&keywords=bookmark&pd_rd_i=B0B4W5981Q&pd_rd_r=e9c101af-7e83-4fc5-b561-9e3e25463e2b&pd_rd_w=MsJmy&pd_rd_wg=LP8fa&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&qid=1753172187&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=book%2Caps%2C390&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+- text: (50% off) Save 5% with coupon
+- img "Amazon Prime"
+- text: FREE delivery Mon, 28 Jul
+- heading "More results" [level=2]
+- list:
+  - listitem:
+    - link "Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift":
+      - /url: /Climberty%C2%AE-Butterfly-Bookmark-Valentine-Christmas/dp/B0CNGVG1V4/ref=sr_1_15?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-15
+      - heading "Climberty® Metal Butterfly Bookmark with Red Heart Chain Pendent, Cute Funny Metal Bookmark, Unique Gifts Book Markers for Women Book Lovers, Valentine Mother's Day Christmas New Year Birthday Gift" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "142 ratings":
+      - /url: /Climberty%C2%AE-Butterfly-Bookmark-Valentine-Christmas/dp/B0CNGVG1V4/ref=sr_1_15?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-15#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹299 M.R.P: ₹599 M.R.P: ₹599"':
+      - /url: /Climberty%C2%AE-Butterfly-Bookmark-Valentine-Christmas/dp/B0CNGVG1V4/ref=sr_1_15?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-15
+    - text: (50% off) FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "The Ink Palette Magnetic Bookmarks - 6 Pieces Assorted Cute Cat Book Markers Clip Set for Women,Book Lovers,Reading":
+      - /url: /Ink-Palette-Magnetic-Bookmarks-Assorted/dp/B0F5ZGW6CR/ref=sr_1_16?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-16
+      - heading "The Ink Palette Magnetic Bookmarks - 6 Pieces Assorted Cute Cat Book Markers Clip Set for Women,Book Lovers,Reading" [level=2]
+    - button "4.2 out of 5 stars, rating details"
+    - link "11 ratings":
+      - /url: /Ink-Palette-Magnetic-Bookmarks-Assorted/dp/B0F5ZGW6CR/ref=sr_1_16?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-16#customerReviews
+    - text: 100+ bought in past month
+    - link "Ends in 05:33:14":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹197 ( ₹32.83 /count) M.R.P: ₹599 M.R.P: ₹599"':
+      - /url: /Ink-Palette-Magnetic-Bookmarks-Assorted/dp/B0F5ZGW6CR/ref=sr_1_16?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-16
+    - text: (67% off) Buy 2 items, get 5% off FREE delivery Tue, 29 Jul
+    - link "See options":
+      - /url: /Ink-Palette-Magnetic-Bookmarks-Assorted/dp/B0F5ZGW6CR/ref=sr_1_16_so_BOOKMARK?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-16
+  - listitem:
+    - group "Best seller in Bookmarks"
+    - link "Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Avengers, Medium)":
+      - /url: /Zesta-Avengers-Bookmark-Bookmarks-Aesthetic/dp/B0C3M5JK9L/ref=sr_1_17?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-17
+      - heading "Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Avengers, Medium)" [level=2]
+    - button "3.9 out of 5 stars, rating details"
+    - link "650 ratings":
+      - /url: /Zesta-Avengers-Bookmark-Bookmarks-Aesthetic/dp/B0C3M5JK9L/ref=sr_1_17?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-17#customerReviews
+    - text: 100+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹245 ( ₹35 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Zesta-Avengers-Bookmark-Bookmarks-Aesthetic/dp/B0C3M5JK9L/ref=sr_1_17?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-17
+    - text: (75% off) Save 1% with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "TOWNBUS - Pack of 12 | Vintage Bookmarks for Kids, Teachers, Students | Page Clips | Book Markers for Book Lovers":
+      - /url: /TOWNBUS-Vintage-Bookmarks-Teachers-Students/dp/B0CWY5P15X/ref=sr_1_18?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-18
+      - heading "TOWNBUS - Pack of 12 | Vintage Bookmarks for Kids, Teachers, Students | Page Clips | Book Markers for Book Lovers" [level=2]
+    - button "4.9 out of 5 stars, rating details"
+    - link "160 ratings":
+      - /url: /TOWNBUS-Vintage-Bookmarks-Teachers-Students/dp/B0CWY5P15X/ref=sr_1_18?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-18#customerReviews
+    - text: 200+ bought in past month Price, product page
+    - 'link "₹189 M.R.P: ₹360 M.R.P: ₹360"':
+      - /url: /TOWNBUS-Vintage-Bookmarks-Teachers-Students/dp/B0CWY5P15X/ref=sr_1_18?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-18
+    - text: (48% off) Save 5% with coupon
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 26 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "CLOCKIVA Blank Wooden Unfinished Cutouts DIY Wooden Craft Bookmark Wood Hanging Gift Tags Rectangle Shape Blank Bookmark Ornaments with Holes DIY Best Gift for Readers (10)":
+      - /url: /CLOCKIVA-Unfinished-Bookmark-Rectangle-Ornaments/dp/B0CSJF3HFR/ref=sr_1_19?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-19
+      - heading "CLOCKIVA Blank Wooden Unfinished Cutouts DIY Wooden Craft Bookmark Wood Hanging Gift Tags Rectangle Shape Blank Bookmark Ornaments with Holes DIY Best Gift for Readers (10)" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "9 ratings":
+      - /url: /CLOCKIVA-Unfinished-Bookmark-Rectangle-Ornaments/dp/B0CSJF3HFR/ref=sr_1_19?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-19#customerReviews
+    - text: Price, product page
+    - 'link "₹99 M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /CLOCKIVA-Unfinished-Bookmark-Rectangle-Ornaments/dp/B0CSJF3HFR/ref=sr_1_19?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-19
+    - text: (80% off) Save 1% with coupon
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Supvox® Metal Feather Bookmark with Glass Beads Pendant, Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Mothers Day Christmas Appreciation Gifts, Random Color Flowers (Purple)":
+      - /url: /Supvox%C2%AE-Bookmark-Butterfly-Enthusiasts-Teachers/dp/B0B5ZN2VCF/ref=sr_1_20?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-20
+      - heading "Supvox® Metal Feather Bookmark with Glass Beads Pendant, Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Mothers Day Christmas Appreciation Gifts, Random Color Flowers (Purple)" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "299 ratings":
+      - /url: /Supvox%C2%AE-Bookmark-Butterfly-Enthusiasts-Teachers/dp/B0B5ZN2VCF/ref=sr_1_20?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-20#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹349 M.R.P: ₹603 M.R.P: ₹603"':
+      - /url: /Supvox%C2%AE-Bookmark-Butterfly-Enthusiasts-Teachers/dp/B0B5ZN2VCF/ref=sr_1_20?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-20
+    - text: (42% off) Save ₹10 with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjIwMDU2NjYzMzk0MTk4OjowOjo&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsr_1_21_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts" [level=2]: Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts
+    - button "4.5 out of 5 stars, rating details"
+    - link "299 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjIwMDU2NjYzMzk0MTk4OjowOjo&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsr_1_21_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹357 M.R.P: ₹550 M.R.P: ₹550"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjIwMDU2NjYzMzk0MTk4OjowOjo&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsr_1_21_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+    - text: (35% off) Buy 2 items, get 3% off FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids.":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU5Mzg1NTQwODUzMjo6MDo6&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsr_1_22_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids." [level=2]: OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids.
+    - button "4.5 out of 5 stars, rating details"
+    - link "12 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU5Mzg1NTQwODUzMjo6MDo6&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsr_1_22_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: 200+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹499 M.R.P: ₹749 M.R.P: ₹749"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU5Mzg1NTQwODUzMjo6MDo6&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsr_1_22_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+    - text: (33% off) Buy 2 items, get 3% off
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Tree Bookmarks, Set of Three, Bookmark, Wood, Wood Bookmark, Gift, Gift for him, Gift for her, Self Gift":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU3MDg4MDgwMzMzMjo6MDo6&url=%2FTree-Bookmarks-Three-Bookmark-Wood%2Fdp%2FB09NW63P9M%2Fref%3Dsr_1_23_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-23-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Tree Bookmarks, Set of Three, Bookmark, Wood, Wood Bookmark, Gift, Gift for him, Gift for her, Self Gift" [level=2]: Tree Bookmarks, Set of Three, Bookmark, Wood, Wood Bookmark, Gift, Gift for him, Gift for her, Self Gift
+    - button "4.1 out of 5 stars, rating details"
+    - link "135 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU3MDg4MDgwMzMzMjo6MDo6&url=%2FTree-Bookmarks-Three-Bookmark-Wood%2Fdp%2FB09NW63P9M%2Fref%3Dsr_1_23_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-23-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: Price, product page
+    - 'link "₹189 ( ₹63 /piece) M.R.P: ₹449 M.R.P: ₹449"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU3MDg4MDgwMzMzMjo6MDo6&url=%2FTree-Bookmarks-Three-Bookmark-Wood%2Fdp%2FB09NW63P9M%2Fref%3Dsr_1_23_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-23-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+    - text: (58% off) Up to 5% back with Amazon Pay ICICI card
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Tree Bookmarks, Set of Three, Wood Bookmarks, Engraved, Tree, Gift, Gift for him, Gift for her, Self Gift":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU3MDg4MDgwNDQzMjo6MDo6&url=%2FTree-Bookmarks-Three-Wood-Engraved%2Fdp%2FB09NW7C4X5%2Fref%3Dsr_1_24_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-24-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Tree Bookmarks, Set of Three, Wood Bookmarks, Engraved, Tree, Gift, Gift for him, Gift for her, Self Gift" [level=2]: Tree Bookmarks, Set of Three, Wood Bookmarks, Engraved, Tree, Gift, Gift for him, Gift for her, Self Gift
+    - button "3.8 out of 5 stars, rating details"
+    - link "5 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU3MDg4MDgwNDQzMjo6MDo6&url=%2FTree-Bookmarks-Three-Wood-Engraved%2Fdp%2FB09NW7C4X5%2Fref%3Dsr_1_24_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-24-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: Price, product page
+    - 'link "₹189 ( ₹63 /piece) M.R.P: ₹449 M.R.P: ₹449"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfbXRmOjMwMDU3MDg4MDgwNDQzMjo6MDo6&url=%2FTree-Bookmarks-Three-Wood-Engraved%2Fdp%2FB09NW7C4X5%2Fref%3Dsr_1_24_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-24-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&sp_cr=DUB
+    - text: (58% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - group "Best seller in Bookmarks"
+    - link "Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Friends TV Show, Medium)":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8G6PRK/ref=sr_1_25?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-25
+      - heading "Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Friends TV Show, Medium)" [level=2]
+    - button "3.9 out of 5 stars, rating details"
+    - link "650 ratings":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8G6PRK/ref=sr_1_25?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-25#customerReviews
+    - text: 50+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹245 ( ₹35 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8G6PRK/ref=sr_1_25?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-25
+    - text: (75% off) Save 1% with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "TOWNBUS Cute Animal Magnetic Bookmarks | Page Markers for Book Lovers | Kids | Best Gift Magnetic Clips with Lovely Quotes":
+      - /url: /TOWNBUS-Animal-Magnetic-Bookmarks-Markers/dp/B0CKNJNH74/ref=sr_1_26?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-26
+      - heading "TOWNBUS Cute Animal Magnetic Bookmarks | Page Markers for Book Lovers | Kids | Best Gift Magnetic Clips with Lovely Quotes" [level=2]
+    - button "4.7 out of 5 stars, rating details"
+    - link "150 ratings":
+      - /url: /TOWNBUS-Animal-Magnetic-Bookmarks-Markers/dp/B0CKNJNH74/ref=sr_1_26?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-26#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹199 M.R.P: ₹350 M.R.P: ₹350"':
+      - /url: /TOWNBUS-Animal-Magnetic-Bookmarks-Markers/dp/B0CKNJNH74/ref=sr_1_26?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-26
+    - text: (43% off) Save 5% with coupon FREE delivery Sun, 27 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas":
+      - /url: /HASTHIP%C2%AE-Bookmark-Enthusiasts-Teachers-Christmas/dp/B0BJVPVJFP/ref=sr_1_27?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-27
+      - heading "HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas" [level=2]
+    - button "4.2 out of 5 stars, rating details"
+    - link "217 ratings":
+      - /url: /HASTHIP%C2%AE-Bookmark-Enthusiasts-Teachers-Christmas/dp/B0BJVPVJFP/ref=sr_1_27?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-27#customerReviews
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹462 M.R.P: ₹689 M.R.P: ₹689"':
+      - /url: /HASTHIP%C2%AE-Bookmark-Enthusiasts-Teachers-Christmas/dp/B0BJVPVJFP/ref=sr_1_27?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-27
+    - text: (33% off) Save ₹10 with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "IMAGIVISE Magnetic Bookmarks for Books – Assorted Coloured 12 PCs Book Magnets for Readers":
+      - /url: /Stickera-Magnetic-Bookmarks-Books-Assorted/dp/B0D3C4TQLS/ref=sr_1_28?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-28
+      - heading "IMAGIVISE Magnetic Bookmarks for Books – Assorted Coloured 12 PCs Book Magnets for Readers" [level=2]
+    - button "3.4 out of 5 stars, rating details"
+    - link "17 ratings":
+      - /url: /Stickera-Magnetic-Bookmarks-Books-Assorted/dp/B0D3C4TQLS/ref=sr_1_28?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-28#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹279 M.R.P: ₹799 M.R.P: ₹799"':
+      - /url: /Stickera-Magnetic-Bookmarks-Books-Assorted/dp/B0D3C4TQLS/ref=sr_1_28?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-28
+    - text: (65% off) Buy 2 items, get 5% off FREE delivery Tue, 29 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Handmade Customised Metal Planner Bookmarks for Books Aesthetic":
+      - /url: /Handmade-Customised-Planner-Bookmarks-Aesthetic/dp/B0D1GRNM4Z/ref=sr_1_29?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-29
+      - heading "Handmade Customised Metal Planner Bookmarks for Books Aesthetic" [level=2]
+    - text: "Options:"
+    - 'link "Options: 1 text input"':
+      - /url: /Handmade-Customised-Planner-Bookmarks-Aesthetic/dp/B0D1GRNM4Z/ref=vo_sr_l_dp?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-29
+      - text: 1 text input
+    - button "4.7 out of 5 stars, rating details"
+    - link "97 ratings":
+      - /url: /Handmade-Customised-Planner-Bookmarks-Aesthetic/dp/B0D1GRNM4Z/ref=sr_1_29?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-29#customerReviews
+    - text: 100+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹369 M.R.P: ₹699 M.R.P: ₹699"':
+      - /url: /Handmade-Customised-Planner-Bookmarks-Aesthetic/dp/B0D1GRNM4Z/ref=sr_1_29?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-29
+    - text: (47% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul Personalise it
+    - link "See options":
+      - /url: /Handmade-Customised-Planner-Bookmarks-Aesthetic/dp/B0D1GRNM4Z/ref=sr_1_29_so_BOOKMARK?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-29
+  - listitem:
+    - link "GKD Bookmarks Set of 10 Creative Book Marks for Book Unique Gifts for Book Lovers Bookmarks Aesthetic Gifts Bamboo & Colorful Book Accessories (ecofriendly 10pc)":
+      - /url: /Bookmarks-Creative-Aesthetic-Accessories-ecofriendly/dp/B0BQMVQTP3/ref=sr_1_30?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-30
+      - heading "GKD Bookmarks Set of 10 Creative Book Marks for Book Unique Gifts for Book Lovers Bookmarks Aesthetic Gifts Bamboo & Colorful Book Accessories (ecofriendly 10pc)" [level=2]
+    - button "4.1 out of 5 stars, rating details"
+    - link "60 ratings":
+      - /url: /Bookmarks-Creative-Aesthetic-Accessories-ecofriendly/dp/B0BQMVQTP3/ref=sr_1_30?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-30#customerReviews
+    - text: Price, product page
+    - 'link "₹499 ( ₹49.90 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Bookmarks-Creative-Aesthetic-Accessories-ecofriendly/dp/B0BQMVQTP3/ref=sr_1_30?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-30
+    - text: (50% off) Save 1% with coupon
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+    - text: More Buying Choices ₹399
+    - link "(2 new offers)":
+      - /url: /gp/offer-listing/B0BQMVQTP3/ref=sr_1_30_olp?keywords=bookmark&crid=3KCUM46ULJ8O0&sprefix=book%2Caps%2C390&dib_tag=se&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&qid=1753172187&sr=8-30
+  - listitem:
+    - link "2PCS Bookmarks for Books Aesthetic, Bookmark, Bookmarks Beautiful Flower or Clock Pattern with Littel Butterfly Perfect Gift for Reading Enthusiasts Cute and Thoughtful Gift Idea":
+      - /url: /Bookmarks-Aesthetic-Beautiful-Enthusiasts-Thoughtful/dp/B0F4RMC552/ref=sr_1_31?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-31
+      - heading "2PCS Bookmarks for Books Aesthetic, Bookmark, Bookmarks Beautiful Flower or Clock Pattern with Littel Butterfly Perfect Gift for Reading Enthusiasts Cute and Thoughtful Gift Idea" [level=2]
+    - button "4.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /Bookmarks-Aesthetic-Beautiful-Enthusiasts-Thoughtful/dp/B0F4RMC552/ref=sr_1_31?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-31#customerReviews
+    - text: Price, product page
+    - 'link "₹249 M.R.P: ₹1,200 M.R.P: ₹1,200"':
+      - /url: /Bookmarks-Aesthetic-Beautiful-Enthusiasts-Thoughtful/dp/B0F4RMC552/ref=sr_1_31?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-31
+    - text: (79% off) FREE delivery Sun, 27 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "GRAFICATIVE Creative Bookmark for Books - Set of 6 Bookmarks for Novels | Designer, Multi-Color Bookmarks for Students and Book Lovers - 7x2 Inches":
+      - /url: /GRAFICATIVE-Creative-Bookmark-Books-Multi-Color/dp/B0FCZWXNJ7/ref=sr_1_32?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-32
+      - heading "GRAFICATIVE Creative Bookmark for Books - Set of 6 Bookmarks for Novels | Designer, Multi-Color Bookmarks for Students and Book Lovers - 7x2 Inches" [level=2]
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /GRAFICATIVE-Creative-Bookmark-Books-Multi-Color/dp/B0FCZWXNJ7/ref=sr_1_32?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-32#customerReviews
+    - text: Price, product page
+    - 'link "₹79 ( ₹13.17 /piece) M.R.P: ₹399 M.R.P: ₹399"':
+      - /url: /GRAFICATIVE-Creative-Bookmark-Books-Multi-Color/dp/B0FCZWXNJ7/ref=sr_1_32?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-32
+    - text: (80% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Mon, 28 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "HASTHIP® Metal Feather Bookmark with Glass Beads Pendant, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student (Blue )":
+      - /url: /HASTHIP%C2%AE-Bookmark-Butterfly-Enthusiasts-Teachers/dp/B0BBMXZPYC/ref=sr_1_33?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-33
+      - heading "HASTHIP® Metal Feather Bookmark with Glass Beads Pendant, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student (Blue )" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "106 ratings":
+      - /url: /HASTHIP%C2%AE-Bookmark-Butterfly-Enthusiasts-Teachers/dp/B0BBMXZPYC/ref=sr_1_33?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-33#customerReviews
+    - text: 50+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹349 M.R.P: ₹721 M.R.P: ₹721"':
+      - /url: /HASTHIP%C2%AE-Bookmark-Butterfly-Enthusiasts-Teachers/dp/B0BBMXZPYC/ref=sr_1_33?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-33
+    - text: (52% off) FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "TOWNBUS Stylish Women Magnetic Bookmarks | Page Markers for Book Lovers | Kids | Best Gift Magnetic Clips with Lovely Quotes":
+      - /url: /TOWNBUS-Stylish-Magnetic-Bookmarks-Markers/dp/B0CKNKGM6L/ref=sr_1_34?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-34
+      - heading "TOWNBUS Stylish Women Magnetic Bookmarks | Page Markers for Book Lovers | Kids | Best Gift Magnetic Clips with Lovely Quotes" [level=2]
+    - button "4.7 out of 5 stars, rating details"
+    - link "158 ratings":
+      - /url: /TOWNBUS-Stylish-Magnetic-Bookmarks-Markers/dp/B0CKNKGM6L/ref=sr_1_34?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-34#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹199 M.R.P: ₹350 M.R.P: ₹350"':
+      - /url: /TOWNBUS-Stylish-Magnetic-Bookmarks-Markers/dp/B0CKNKGM6L/ref=sr_1_34?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-34
+    - text: (43% off) Save 5% with coupon FREE delivery Sun, 27 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "DecorTwist Premium Brass Bookmarks (Size 1.9\" x 3.3\") Pack of 1 Handcrafted Lotus Design Multicolor Bookmark with Tassel Gift for Teachers, Readers, Book Lovers, Student Friend Gifts":
+      - /url: /DecorTwist-Bookmarks-Handcrafted-Multicolor-Bookmark/dp/B0DYVGNFCK/ref=sr_1_35?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-35
+      - heading "DecorTwist Premium Brass Bookmarks (Size 1.9\" x 3.3\") Pack of 1 Handcrafted Lotus Design Multicolor Bookmark with Tassel Gift for Teachers, Readers, Book Lovers, Student Friend Gifts" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "169 ratings":
+      - /url: /DecorTwist-Bookmarks-Handcrafted-Multicolor-Bookmark/dp/B0DYVGNFCK/ref=sr_1_35?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-35#customerReviews
+    - text: Price, product page
+    - 'link "₹249 M.R.P: ₹899 M.R.P: ₹899"':
+      - /url: /DecorTwist-Bookmarks-Handcrafted-Multicolor-Bookmark/dp/B0DYVGNFCK/ref=sr_1_35?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-35
+    - text: (72% off) FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "HOBIGO 3D Spilled Coffee Mug Bookmark Plastic Bookmark":
+      - /url: /HOBIGO-Spilled-Coffee-Bookmark-Plastic/dp/B0D8YPXND3/ref=sr_1_36?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-36
+      - heading "HOBIGO 3D Spilled Coffee Mug Bookmark Plastic Bookmark" [level=2]
+    - button "4.3 out of 5 stars, rating details"
+    - link "6 ratings":
+      - /url: /HOBIGO-Spilled-Coffee-Bookmark-Plastic/dp/B0D8YPXND3/ref=sr_1_36?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-36#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹189 M.R.P: ₹399 M.R.P: ₹399"':
+      - /url: /HOBIGO-Spilled-Coffee-Bookmark-Plastic/dp/B0D8YPXND3/ref=sr_1_36?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-36
+    - text: (53% off) Save ₹5 with coupon FREE delivery Tue, 29 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "The Ink Palette Magnetic Bookmarks - 5 Pieces Assorted Cute Book Markers Clip Set for Women,Book Lovers,Reading":
+      - /url: /Ink-Palette-Magnetic-Bookmarks-Assorted/dp/B0FCCL614J/ref=sr_1_37?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-37
+      - heading "The Ink Palette Magnetic Bookmarks - 5 Pieces Assorted Cute Book Markers Clip Set for Women,Book Lovers,Reading" [level=2]
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /Ink-Palette-Magnetic-Bookmarks-Assorted/dp/B0FCCL614J/ref=sr_1_37?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-37#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹199 ( ₹39.80 /count) M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /Ink-Palette-Magnetic-Bookmarks-Assorted/dp/B0FCCL614J/ref=sr_1_37?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-37
+    - text: (60% off) Buy 2 items, get 5% off FREE delivery Tue, 29 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "TOWNBUS Cool Retro Magnetic Bookmarks | Page Markers for Book Lovers | Kids | Best Gift Magnetic Clips with Lovely Quotes":
+      - /url: /TOWNBUS-Magnetic-Bookmarks-Markers-Lovers/dp/B0CPVLLDKW/ref=sr_1_38?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-38
+      - heading "TOWNBUS Cool Retro Magnetic Bookmarks | Page Markers for Book Lovers | Kids | Best Gift Magnetic Clips with Lovely Quotes" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "11 ratings":
+      - /url: /TOWNBUS-Magnetic-Bookmarks-Markers-Lovers/dp/B0CPVLLDKW/ref=sr_1_38?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-38#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹199 M.R.P: ₹350 M.R.P: ₹350"':
+      - /url: /TOWNBUS-Magnetic-Bookmarks-Markers-Lovers/dp/B0CPVLLDKW/ref=sr_1_38?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-38
+    - text: (43% off) Save 5% with coupon FREE delivery Sun, 27 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "The Groot Echt Bookmarks Set of 24 - Specially Designed for Book Paperback Bookmark by The Groot Echt (Black Theme, Inspiration Through, NO Repeat Designs, Unique Quotes, Multi-Color Bookmark":
+      - /url: /GROOT-ECHT-Bookmarks-Set-Inspiration/dp/B08VH9RJD8/ref=sr_1_39?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-39
+      - heading "The Groot Echt Bookmarks Set of 24 - Specially Designed for Book Paperback Bookmark by The Groot Echt (Black Theme, Inspiration Through, NO Repeat Designs, Unique Quotes, Multi-Color Bookmark" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "806 ratings":
+      - /url: /GROOT-ECHT-Bookmarks-Set-Inspiration/dp/B08VH9RJD8/ref=sr_1_39?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-39#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹198 ( ₹8.25 /count) M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /GROOT-ECHT-Bookmarks-Set-Inspiration/dp/B08VH9RJD8/ref=sr_1_39?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-39
+    - text: (60% off) Save 5% with coupon FREE delivery Sat, 26 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "MC SID Razz Harry Potter Pack of 6 New Magnetic Bookmarks | Gift for Readers and Book Lovers| Girlfriends/Boyfriends Gift - Officially Licensed by Warner Bros, USA":
+      - /url: /MC-SID-RAZZ-Girlfriends-Boyfriends/dp/B07PFDN6D4/ref=sr_1_40?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-40
+      - heading "MC SID Razz Harry Potter Pack of 6 New Magnetic Bookmarks | Gift for Readers and Book Lovers| Girlfriends/Boyfriends Gift - Officially Licensed by Warner Bros, USA" [level=2]
+    - button "4.1 out of 5 stars, rating details"
+    - link "396 ratings":
+      - /url: /MC-SID-RAZZ-Girlfriends-Boyfriends/dp/B07PFDN6D4/ref=sr_1_40?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-40#customerReviews
+    - text: 100+ bought in past month Price, product page
+    - 'link "₹249 ( ₹41.50 /count) M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /MC-SID-RAZZ-Girlfriends-Boyfriends/dp/B07PFDN6D4/ref=sr_1_40?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-40
+    - text: (50% off) FREE delivery Sun, 27 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "PiyuBind Silicone Bookmark – Hands-Free Page Keeper, Smart Bookmark for Readers, Book Lovers, Kids, Students, Teachers – Unique Page Holder, Reading Accessories, Gifts for Men & Women (3 Pcs)":
+      - /url: /PiyuBind-Silicone-Bookmark-Hands-Free-Accessories/dp/B0DVZ5K3SG/ref=sr_1_41?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-41
+      - heading "PiyuBind Silicone Bookmark – Hands-Free Page Keeper, Smart Bookmark for Readers, Book Lovers, Kids, Students, Teachers – Unique Page Holder, Reading Accessories, Gifts for Men & Women (3 Pcs)" [level=2]
+    - button "3.8 out of 5 stars, rating details"
+    - link "9 ratings":
+      - /url: /PiyuBind-Silicone-Bookmark-Hands-Free-Accessories/dp/B0DVZ5K3SG/ref=sr_1_41?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-41#customerReviews
+    - text: Price, product page
+    - 'link "₹248 M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /PiyuBind-Silicone-Bookmark-Hands-Free-Accessories/dp/B0DVZ5K3SG/ref=sr_1_41?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-41
+    - text: (50% off) Save ₹15 with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Kraftnix Metallic/Stainless Steel Bookmarks with Quotes Kahani Abhi Baki Hai for Novel/Study/Storybook Best Gift for Book Lovers/Readers (Silver)":
+      - /url: /Kraftnix-Metallic-Stainless-Bookmarks-Readers/dp/B085MB63XN/ref=sr_1_42?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-42
+      - heading "Kraftnix Metallic/Stainless Steel Bookmarks with Quotes Kahani Abhi Baki Hai for Novel/Study/Storybook Best Gift for Book Lovers/Readers (Silver)" [level=2]
+    - button "4.6 out of 5 stars, rating details"
+    - link "639 ratings":
+      - /url: /Kraftnix-Metallic-Stainless-Bookmarks-Readers/dp/B085MB63XN/ref=sr_1_42?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-42#customerReviews
+    - text: Price, product page
+    - 'link "₹325 M.R.P: ₹899 M.R.P: ₹899"':
+      - /url: /Kraftnix-Metallic-Stainless-Bookmarks-Readers/dp/B085MB63XN/ref=sr_1_42?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-42
+    - text: (64% off) FREE delivery Sun, 27 Jul on first order
+    - button "Add to cart"
+  - listitem:
+    - link "Handmade Customised Bookmarks for Books Aesthetic, Handmade Personalised Aesthetic Bookmarks Metal Planner, Bookmark Book Lovers":
+      - /url: /Handmade-Customised-Bookmarks-Aesthetic-Personalised/dp/B0DXQBZPP7/ref=sr_1_43?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-43
+      - heading "Handmade Customised Bookmarks for Books Aesthetic, Handmade Personalised Aesthetic Bookmarks Metal Planner, Bookmark Book Lovers" [level=2]
+    - text: "Options:"
+    - 'link "Options: 1 text input"':
+      - /url: /Handmade-Customised-Bookmarks-Aesthetic-Personalised/dp/B0DXQBZPP7/ref=vo_sr_l_dp?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-43
+      - text: 1 text input
+    - button "4.6 out of 5 stars, rating details"
+    - link "7 ratings":
+      - /url: /Handmade-Customised-Bookmarks-Aesthetic-Personalised/dp/B0DXQBZPP7/ref=sr_1_43?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-43#customerReviews
+    - text: Price, product page
+    - 'link "₹439 M.R.P: ₹949 M.R.P: ₹949"':
+      - /url: /Handmade-Customised-Bookmarks-Aesthetic-Personalised/dp/B0DXQBZPP7/ref=sr_1_43?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-43
+    - text: (54% off) Delivery Sun, 27 Jul Personalise it
+    - link "See options":
+      - /url: /Handmade-Customised-Bookmarks-Aesthetic-Personalised/dp/B0DXQBZPP7/ref=sr_1_43_so_BOOKMARK?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-43
+  - listitem:
+    - link "Set of 10 Cute Bookmarks | Doubled Sided Print | 350 GSM Paper | Multi-Color Bookmark (6 * 2 inches)":
+      - /url: /Bookmarks-Doubled-Multi-Color-Bookmark-inches/dp/B0F4KXRJ6C/ref=sr_1_44?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-44
+      - heading "Set of 10 Cute Bookmarks | Doubled Sided Print | 350 GSM Paper | Multi-Color Bookmark (6 * 2 inches)" [level=2]
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /Bookmarks-Doubled-Multi-Color-Bookmark-inches/dp/B0F4KXRJ6C/ref=sr_1_44?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-44#customerReviews
+    - text: Price, product page
+    - 'link "₹115 ( ₹1,150 /100 g) M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /Bookmarks-Doubled-Multi-Color-Bookmark-inches/dp/B0F4KXRJ6C/ref=sr_1_44?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-44
+    - text: (77% off) FREE delivery Tue, 29 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Antara Positive Affirmation Bookmarks with Quotes | Set of 5 | Digitised Handpaintings | Laminated Matte Finish | Best Gift for bibliophiles | 2.25\" X 3.8\" | Magnetic Clip Attachment":
+      - /url: /Antara-Affirmation-Handpaintings-bibliophiles-Attachment/dp/B0DTTXF8YJ/ref=sr_1_45?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-45
+      - heading "Antara Positive Affirmation Bookmarks with Quotes | Set of 5 | Digitised Handpaintings | Laminated Matte Finish | Best Gift for bibliophiles | 2.25\" X 3.8\" | Magnetic Clip Attachment" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "907 ratings":
+      - /url: /Antara-Affirmation-Handpaintings-bibliophiles-Attachment/dp/B0DTTXF8YJ/ref=sr_1_45?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-45#customerReviews
+    - text: Price, product page
+    - 'link "₹226 ( ₹45.20 /count) M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /Antara-Affirmation-Handpaintings-bibliophiles-Attachment/dp/B0DTTXF8YJ/ref=sr_1_45?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-45
+    - text: (55% off) Buy 2 items, get 5% off FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - group "Best seller in Bookmarks"
+    - link "Zesta 3D Cute Magnetic Book Marks | Gifts for Book Lovers | Aesthetic Cartoon Magnetic Bookmarks (Taylor Swift, Medium)":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8F8NX5/ref=sr_1_46?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-46
+      - heading "Zesta 3D Cute Magnetic Book Marks | Gifts for Book Lovers | Aesthetic Cartoon Magnetic Bookmarks (Taylor Swift, Medium)" [level=2]
+    - button "3.9 out of 5 stars, rating details"
+    - link "650 ratings":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8F8NX5/ref=sr_1_46?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-46#customerReviews
+    - text: 50+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹263 ( ₹37.57 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Cartoon/dp/B0DB8F8NX5/ref=sr_1_46?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-46
+    - text: (74% off) Save 1% with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "oddpod™ 4 Pcs Imported Metal Bookmarks/Cute & Trendy Book Accessories with Measurement Scale 1831 (4 Designs x 1 Pc)":
+      - /url: /oddpodTM-Bookmarks-Accessories-Measurement-Designs/dp/B08L7MG21B/ref=sr_1_47?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-47
+      - heading "oddpod™ 4 Pcs Imported Metal Bookmarks/Cute & Trendy Book Accessories with Measurement Scale 1831 (4 Designs x 1 Pc)" [level=2]
+    - button "4.4 out of 5 stars, rating details"
+    - link "64 ratings":
+      - /url: /oddpodTM-Bookmarks-Accessories-Measurement-Designs/dp/B08L7MG21B/ref=sr_1_47?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-47#customerReviews
+    - text: Price, product page
+    - 'link "₹299 ( ₹74.75 /piece) M.R.P: ₹360 M.R.P: ₹360"':
+      - /url: /oddpodTM-Bookmarks-Accessories-Measurement-Designs/dp/B08L7MG21B/ref=sr_1_47?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-47
+    - text: (17% off) FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Cute Butterfly, Leaf, Rose Flower Metal Bookmarks with Attached Glass Beads Pendant, Metal Bookmarks for Book Lovers & Students, Bookmark Gift Set for Students (Leaf)":
+      - /url: /Butterfly-Bookmarks-Attached-Students-Bookmark/dp/B0FBMDT79X/ref=sr_1_48?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-48
+      - heading "Cute Butterfly, Leaf, Rose Flower Metal Bookmarks with Attached Glass Beads Pendant, Metal Bookmarks for Book Lovers & Students, Bookmark Gift Set for Students (Leaf)" [level=2]
+    - text: Price, product page
+    - 'link "₹159 M.R.P: ₹1,000 M.R.P: ₹1,000"':
+      - /url: /Butterfly-Bookmarks-Attached-Students-Bookmark/dp/B0FBMDT79X/ref=sr_1_48?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-48
+    - text: (84% off) FREE delivery Fri, 25 Jul on first order Only 2 left in stock.
+    - button "Add to cart"
+  - listitem:
+    - link "TOJE Handmade Crochet Tea Cup Bookmark,Coffee Bookmark, Book Markers for Novels,Cute Bookmarks Aesthetic,Coolest Bookmarks,Book Mark Gift for Men Women Kids Family (Pack of 1)":
+      - /url: /TOJE-Tea-Cup-Bookmark-Bookmarks/dp/B0DRL7F3S3/ref=sr_1_49?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-49
+      - heading "TOJE Handmade Crochet Tea Cup Bookmark,Coffee Bookmark, Book Markers for Novels,Cute Bookmarks Aesthetic,Coolest Bookmarks,Book Mark Gift for Men Women Kids Family (Pack of 1)" [level=2]
+    - button "4.7 out of 5 stars, rating details"
+    - link "9 ratings":
+      - /url: /TOJE-Tea-Cup-Bookmark-Bookmarks/dp/B0DRL7F3S3/ref=sr_1_49?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-49#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹299 M.R.P: ₹550 M.R.P: ₹550"':
+      - /url: /TOJE-Tea-Cup-Bookmark-Bookmarks/dp/B0DRL7F3S3/ref=sr_1_49?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-49
+    - text: (46% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Mon, 28 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "OneOclock Sky Affirmations – Magnetic Bookmark Set of 6 | Bookmarks for Book Readers, Book Mark Gifts for Book Lovers | Book Marks for Books | Gift for Readers":
+      - /url: /OneOclock-Sky-Affirmations-Magnetic-Bookmarks/dp/B0FGJ9HM2T/ref=sr_1_50?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-50
+      - heading "OneOclock Sky Affirmations – Magnetic Bookmark Set of 6 | Bookmarks for Book Readers, Book Mark Gifts for Book Lovers | Book Marks for Books | Gift for Readers" [level=2]
+    - text: Price, product page
+    - 'link "₹299 ( ₹49.83 /count) M.R.P: ₹389 M.R.P: ₹389"':
+      - /url: /OneOclock-Sky-Affirmations-Magnetic-Bookmarks/dp/B0FGJ9HM2T/ref=sr_1_50?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-50
+    - text: (23% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "TOJE Handmade Sunflower Crochet Bookmarks for Books,Book Markers for Novels, Sunflower Cute Flower Bookmark,Green Leaf Bookmark for Men Women Kids Family (Pack of 1)":
+      - /url: /TOJE-Handmade-Sunflower-Bookmarks-Bookmark/dp/B0DM8VJJ9N/ref=sr_1_51?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-51
+      - heading "TOJE Handmade Sunflower Crochet Bookmarks for Books,Book Markers for Novels, Sunflower Cute Flower Bookmark,Green Leaf Bookmark for Men Women Kids Family (Pack of 1)" [level=2]
+    - button "4.8 out of 5 stars, rating details"
+    - link "11 ratings":
+      - /url: /TOJE-Handmade-Sunflower-Bookmarks-Bookmark/dp/B0DM8VJJ9N/ref=sr_1_51?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-51#customerReviews
+    - text: Price, product page
+    - 'link "₹285 M.R.P: ₹700 M.R.P: ₹700"':
+      - /url: /TOJE-Handmade-Sunflower-Bookmarks-Bookmark/dp/B0DM8VJJ9N/ref=sr_1_51?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-51
+    - text: (59% off) FREE delivery Fri, 1 Aug
+    - button "Add to cart"
+  - listitem:
+    - link "PaperO Mil Board Bookmark | 14 x 5 cm | Eco-Friendly Bookmarks & Gift Cards | Versatile Page Markers for Book Lovers | Pack of 15":
+      - /url: /PaperO-Bookmark-Eco-Friendly-Bookmarks-Versatile/dp/B0F2FXX7RW/ref=sr_1_52?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-52
+      - heading "PaperO Mil Board Bookmark | 14 x 5 cm | Eco-Friendly Bookmarks & Gift Cards | Versatile Page Markers for Book Lovers | Pack of 15" [level=2]
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /PaperO-Bookmark-Eco-Friendly-Bookmarks-Versatile/dp/B0F2FXX7RW/ref=sr_1_52?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-52#customerReviews
+    - text: 50+ bought in past month Price, product page
+    - 'link "₹149 ( ₹9.93 /count) M.R.P: ₹449 M.R.P: ₹449"':
+      - /url: /PaperO-Bookmark-Eco-Friendly-Bookmarks-Versatile/dp/B0F2FXX7RW/ref=sr_1_52?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-52
+    - text: (67% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 26 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Bookmark, Bookmarks, Bookmarks for Books Aesthetic Cool Wings Pattern Hanging Charm Vintage Feather Butterfly for Reading Enthusiasts and Gifting, Bookmark Gift for Magic Novels":
+      - /url: /Bookmark-Bookmarks-Aesthetic-Butterfly-Enthusiasts/dp/B0F4RMGV7N/ref=sr_1_53?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-53
+      - heading "Bookmark, Bookmarks, Bookmarks for Books Aesthetic Cool Wings Pattern Hanging Charm Vintage Feather Butterfly for Reading Enthusiasts and Gifting, Bookmark Gift for Magic Novels" [level=2]
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /Bookmark-Bookmarks-Aesthetic-Butterfly-Enthusiasts/dp/B0F4RMGV7N/ref=sr_1_53?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-53#customerReviews
+    - text: Price, product page
+    - 'link "₹599 M.R.P: ₹1,000 M.R.P: ₹1,000"':
+      - /url: /Bookmark-Bookmarks-Aesthetic-Butterfly-Enthusiasts/dp/B0F4RMGV7N/ref=sr_1_53?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-53
+    - text: (40% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 26 Jul Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Lentikart 3D Lenticular Bookmark Set of 2 | 2 x 6.6 in with Tassel | Motivational Quote Book Reading Inspiration |Fall Asleep + Lost| Bookmarks for Book Unique Gifts for Book Lovers":
+      - /url: /Lentikart-Lenticular-Motivational-Inspiration-Bookmarks/dp/B0CJ33VMX4/ref=sr_1_54?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-54
+      - heading "Lentikart 3D Lenticular Bookmark Set of 2 | 2 x 6.6 in with Tassel | Motivational Quote Book Reading Inspiration |Fall Asleep + Lost| Bookmarks for Book Unique Gifts for Book Lovers" [level=2]
+    - button "4.5 out of 5 stars, rating details"
+    - link "16 ratings":
+      - /url: /Lentikart-Lenticular-Motivational-Inspiration-Bookmarks/dp/B0CJ33VMX4/ref=sr_1_54?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-54#customerReviews
+    - text: Price, product page
+    - 'link "₹187 ( ₹93.50 /count) M.R.P: ₹399 M.R.P: ₹399"':
+      - /url: /Lentikart-Lenticular-Motivational-Inspiration-Bookmarks/dp/B0CJ33VMX4/ref=sr_1_54?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-54
+    - text: (53% off) Save 3% with coupon
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - link "Metal Golden Dog Design Bookmark for Women and Men, Stylish Page Marker with Tassel, Gifting for Readers, Journals, Novels, Students, Teachers, Friends (Bookmark Dog Design)":
+      - /url: /Bookmark-Stylish-Journals-Students-Teachers/dp/B0FCRNP3ZB/ref=sr_1_55?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-55
+      - heading "Metal Golden Dog Design Bookmark for Women and Men, Stylish Page Marker with Tassel, Gifting for Readers, Journals, Novels, Students, Teachers, Friends (Bookmark Dog Design)" [level=2]
+    - button "5.0 out of 5 stars, rating details"
+    - link "1 ratings":
+      - /url: /Bookmark-Stylish-Journals-Students-Teachers/dp/B0FCRNP3ZB/ref=sr_1_55?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-55#customerReviews
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹93 ( ₹46.50 /piece) M.R.P: ₹499 M.R.P: ₹499"':
+      - /url: /Bookmark-Stylish-Journals-Students-Teachers/dp/B0FCRNP3ZB/ref=sr_1_55?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-55
+    - text: (81% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - group "Best seller in Bookmarks"
+    - link "Zesta 3D Cute Magnetic Book Mark Gifts for Lovers | Aesthetic Cartoon Magnetic Bookmarks (Sherlock, Medium)":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Sherlock/dp/B0DB8G7YDM/ref=sr_1_56?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-56
+      - heading "Zesta 3D Cute Magnetic Book Mark Gifts for Lovers | Aesthetic Cartoon Magnetic Bookmarks (Sherlock, Medium)" [level=2]
+    - button "3.9 out of 5 stars, rating details"
+    - link "650 ratings":
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Sherlock/dp/B0DB8G7YDM/ref=sr_1_56?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-56#customerReviews
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹247 ( ₹35.29 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /Zesta-Magnetic-Bookmarks-Aesthetic-Sherlock/dp/B0DB8G7YDM/ref=sr_1_56?crid=3KCUM46ULJ8O0&dib=eyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks&dib_tag=se&keywords=bookmark&qid=1753172187&sprefix=book%2Caps%2C390&sr=8-56
+    - text: (75% off) Save 1% with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Tree Bookmarks, Set of Three || Perfect Gift for Teacher/Student, Book Readers & Book Lovers || Engraved Bookmark with Optional Personalization ||Set of 3 Bookmark in a Handcrafted Wooden Box":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDU3MDg4MDgwMzUzMjo6MDo6&url=%2FBookmarks-Engraved-Bookmark-Personalization-Handcrafted%2Fdp%2FB09YHSM9C5%2Fref%3Dsr_1_57_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-57-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Tree Bookmarks, Set of Three || Perfect Gift for Teacher/Student, Book Readers & Book Lovers || Engraved Bookmark with Optional Personalization ||Set of 3 Bookmark in a Handcrafted Wooden Box" [level=2]: Tree Bookmarks, Set of Three || Perfect Gift for Teacher/Student, Book Readers & Book Lovers || Engraved Bookmark with Optional Personalization ||Set of 3 Bookmark in a Handcrafted Wooden Box
+    - button "4.2 out of 5 stars, rating details"
+    - link "113 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDU3MDg4MDgwMzUzMjo6MDo6&url=%2FBookmarks-Engraved-Bookmark-Personalization-Handcrafted%2Fdp%2FB09YHSM9C5%2Fref%3Dsr_1_57_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-57-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: Price, product page
+    - 'link "₹189 M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDU3MDg4MDgwMzUzMjo6MDo6&url=%2FBookmarks-Engraved-Bookmark-Personalization-Handcrafted%2Fdp%2FB09YHSM9C5%2Fref%3Dsr_1_57_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-57-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+    - text: (81% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sun, 27 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjIwMTY0NzMwMjIzNDk4OjowOjo&url=%2FHASTHIP%25C2%25AE-Bookmark-Enthusiasts-Teachers-Christmas%2Fdp%2FB0BJVPVJFP%2Fref%3Dsr_1_58_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-58-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas" [level=2]: HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas
+    - button "4.2 out of 5 stars, rating details"
+    - link "217 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjIwMTY0NzMwMjIzNDk4OjowOjo&url=%2FHASTHIP%25C2%25AE-Bookmark-Enthusiasts-Teachers-Christmas%2Fdp%2FB0BJVPVJFP%2Fref%3Dsr_1_58_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-58-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹462 M.R.P: ₹689 M.R.P: ₹689"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjIwMTY0NzMwMjIzNDk4OjowOjo&url=%2FHASTHIP%25C2%25AE-Bookmark-Enthusiasts-Teachers-Christmas%2Fdp%2FB0BJVPVJFP%2Fref%3Dsr_1_58_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-58-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+    - text: (33% off) Save ₹10 with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+  - listitem:
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Prata Hand-Made Radiant Reads Bookmarks Collection (Glossy Finish) | Set of 10 Bookmarks | Ideal for Gifting | Digital Prints of Original Hand-Made Watercolor Designs (Little Moments)":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDM4NDk2NDgzMzAzMjo6MDo6&url=%2FPrata-Hand-Made-Bookmarks-Collection-Watercolor%2Fdp%2FB0DK5QSQPG%2Fref%3Dsr_1_59_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-59-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Prata Hand-Made Radiant Reads Bookmarks Collection (Glossy Finish) | Set of 10 Bookmarks | Ideal for Gifting | Digital Prints of Original Hand-Made Watercolor Designs (Little Moments)" [level=2]: Prata Hand-Made Radiant Reads Bookmarks Collection (Glossy Finish) | Set of 10 Bookmarks | Ideal for Gifting | Digital Prints of Original Hand-Made Watercolor Designs (Little Moments)
+    - button "4.0 out of 5 stars, rating details"
+    - link "5 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDM4NDk2NDgzMzAzMjo6MDo6&url=%2FPrata-Hand-Made-Bookmarks-Collection-Watercolor%2Fdp%2FB0DK5QSQPG%2Fref%3Dsr_1_59_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-59-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: Price, product page
+    - 'link "₹299 ( ₹29.90 /count) M.R.P: ₹699 M.R.P: ₹699"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDM4NDk2NDgzMzAzMjo6MDo6&url=%2FPrata-Hand-Made-Bookmarks-Collection-Watercolor%2Fdp%2FB0DK5QSQPG%2Fref%3Dsr_1_59_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-59-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+    - text: (57% off)
+    - img "Amazon Prime"
+    - text: FREE delivery Sat, 26 Jul Or fastest delivery Fri, 25 Jul
+    - button "Add to cart"
+  - listitem:
+    - group "Best seller in Bookmarks"
+    - button "View Sponsored information or leave ad feedback": Sponsored
+    - link "Sponsored Ad - Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Harry Potter, Medium)":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDI3MjI1ODU0ODUzMjo6MDo6&url=%2FZesta-Accessories-Magnetic-Bookmarks-Aesthetic%2Fdp%2FB0C3M9LX14%2Fref%3Dsr_1_60_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-60-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+      - heading "Sponsored Ad - Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Harry Potter, Medium)" [level=2]: Zesta 3D Cute Magnetic Book Mark Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (Harry Potter, Medium)
+    - button "3.9 out of 5 stars, rating details"
+    - link "650 ratings":
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDI3MjI1ODU0ODUzMjo6MDo6&url=%2FZesta-Accessories-Magnetic-Bookmarks-Aesthetic%2Fdp%2FB0C3M9LX14%2Fref%3Dsr_1_60_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-60-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB#customerReviews
+    - text: 1K+ bought in past month
+    - link "Limited time deal":
+      - /url: /deals
+    - text: Price, product page
+    - 'link "₹245 ( ₹35 /count) M.R.P: ₹999 M.R.P: ₹999"':
+      - /url: /sspa/click?ie=UTF8&spc=MTo2NjMxNDY1MTYzNzk0NTE1OjE3NTMxNzIxODc6c3BfYnRmOjMwMDI3MjI1ODU0ODUzMjo6MDo6&url=%2FZesta-Accessories-Magnetic-Bookmarks-Aesthetic%2Fdp%2FB0C3M9LX14%2Fref%3Dsr_1_60_sspa%3Fcrid%3D3KCUM46ULJ8O0%26dib%3DeyJ2IjoiMSJ9.pP4WPhRr-lbuZJSxbrt1cSzN3dBWoEBSsFBTZOkgBcd7j3B2dmZb2NSglafxgsniw6YglKPQnt_1NpnIJr-Oo0L3n3cBZZj7rfz2jrayttzAZZ-iEehON55mLHnHFoKi0q0egmO2jhmYp4U1pxKh9_aZv7IAAXMYlRfsPIOBNyFWicjjp4HT_3OhrvjcUrEYsItoTmSRPsIx0Qa_sKoRRyByI7int4DskNCsxIoPWb5w4WCQ7m8029RKegdOdvGfVVGIYWdoLlllj2Xw2r0IDt09A0nP4EvIsi1eVfnjHdk.ewARDgB86kyuYkqZ25f7liWiYnwdQPkXylO_xRQ8Eks%26dib_tag%3Dse%26keywords%3Dbookmark%26qid%3D1753172187%26sprefix%3Dbook%252Caps%252C390%26sr%3D8-60-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&sp_cr=DUB
+    - text: (75% off) Save 1% with coupon FREE delivery Thu, 24 Jul on first order Or fastest delivery Tomorrow, 23 Jul
+    - button "Add to cart"
+- heading "Today's deals" [level=2]
+- button "View Sponsored information or leave ad feedback": Sponsored
+- group "Today's deals":
+  - group:
+    - list:
+      - listitem "1 of 5":
+        - link "Sponsored Ad - Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjoyMDA1NjY2MzM5NDE5ODo6MDo6&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0B27T7VFG%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts" [level=2]: Supvox® Metal Feather Bookmark, Vintage Feather Butterfly Bookmark for Reading Enthusiasts and Gifting, Bookmark Gift for Teachers Women Student, Mothers Day Christmas Appreciation Gifts
+        - button "4.5 out of 5 stars, rating details"
+        - link "299 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjoyMDA1NjY2MzM5NDE5ODo6MDo6&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0B27T7VFG%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB#customerReviews
+        - link "Limited time deal":
+          - /url: /deals
+        - text: Price, product page
+        - 'link "₹357 M.R.P: ₹550 M.R.P: ₹550"':
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjoyMDA1NjY2MzM5NDE5ODo6MDo6&url=%2FBookmark-Butterfly-Enthusiasts-Christmas-Appreciation%2Fdp%2FB0B27T7VFG%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0B27T7VFG%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-1-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+        - text: (35% off) Buy 2 items, get 3% off
+      - listitem "2 of 5":
+        - link "Sponsored Ad - OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids.":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1OTM4NTU0MDg1MzI6OjE6Og&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F5GKY799%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids." [level=2]: OFIFO® Metal Bookmark Set of 4 with Tassel, Gold Hollow Van Gogh Design, Artistic Book Marker for Readers, Unique Gift for Book Lovers, Students, Men, Women, Kids.
+        - button "4.5 out of 5 stars, rating details"
+        - link "12 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1OTM4NTU0MDg1MzI6OjE6Og&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F5GKY799%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB#customerReviews
+        - text: 200+ bought in past month
+        - link "Limited time deal":
+          - /url: /deals
+        - text: Price, product page
+        - 'link "₹499 M.R.P: ₹749 M.R.P: ₹749"':
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA1OTM4NTU0MDg1MzI6OjE6Og&url=%2FOFIFO%25C2%25AE-Bookmark-Artistic-Readers-Students%2Fdp%2FB0F5GKY799%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0F5GKY799%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-2-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+        - text: (33% off) Buy 2 items, get 3% off
+        - img "Amazon Prime"
+      - listitem "3 of 5":
+        - link "Sponsored Ad - HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjoyMDE2NDczMDIyMzQ5ODo6Mjo6&url=%2FHASTHIP%25C2%25AE-Bookmark-Enthusiasts-Teachers-Christmas%2Fdp%2FB0BJVPVJFP%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0BJVPVJFP%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas" [level=2]: HASTHIP® Metal Feather Bookmark Glow in The Dark, Vintage 3D Golden Dragon for Reading Enthusiasts, Gift for Teachers, Women, Students, Mother's Day, Christmas
+        - button "4.2 out of 5 stars, rating details"
+        - link "217 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjoyMDE2NDczMDIyMzQ5ODo6Mjo6&url=%2FHASTHIP%25C2%25AE-Bookmark-Enthusiasts-Teachers-Christmas%2Fdp%2FB0BJVPVJFP%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0BJVPVJFP%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB#customerReviews
+        - link "Limited time deal":
+          - /url: /deals
+        - text: Price, product page
+        - 'link "₹462 M.R.P: ₹689 M.R.P: ₹689"':
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjoyMDE2NDczMDIyMzQ5ODo6Mjo6&url=%2FHASTHIP%25C2%25AE-Bookmark-Enthusiasts-Teachers-Christmas%2Fdp%2FB0BJVPVJFP%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0BJVPVJFP%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-3-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+        - text: (33% off) Save ₹10 with coupon
+      - listitem "4 of 5":
+        - link "Sponsored Ad - Handmade Customised Metal Planner Bookmarks for Books Aesthetic":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAxNjcwNzcyODA4MzI6OjM6Og&url=%2FHandmade-Customised-Planner-Bookmarks-Aesthetic%2Fdp%2FB0D1GRNM4Z%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0D1GRNM4Z%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - Handmade Customised Metal Planner Bookmarks for Books Aesthetic" [level=2]: Handmade Customised Metal Planner Bookmarks for Books Aesthetic
+        - button "4.7 out of 5 stars, rating details"
+        - link "97 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAxNjcwNzcyODA4MzI6OjM6Og&url=%2FHandmade-Customised-Planner-Bookmarks-Aesthetic%2Fdp%2FB0D1GRNM4Z%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0D1GRNM4Z%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB#customerReviews
+        - text: 100+ bought in past month
+        - link "Limited time deal":
+          - /url: /deals
+        - text: Price, product page
+        - 'link "₹369 M.R.P: ₹699 M.R.P: ₹699"':
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDAxNjcwNzcyODA4MzI6OjM6Og&url=%2FHandmade-Customised-Planner-Bookmarks-Aesthetic%2Fdp%2FB0D1GRNM4Z%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0D1GRNM4Z%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-4-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+        - text: (47% off)
+        - img "Amazon Prime"
+      - listitem "5 of 5":
+        - link "Sponsored Ad - Zesta Cute Magnetic Bookmarks Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (15X4 Cms) (Trendy)":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0NjQ5MDk3MjQ1MzI6OjQ6Og&url=%2FZesta-Magnetic-Bookmarks-Aesthetic-Trendy%2Fdp%2FB0DTF2PZWP%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0DTF2PZWP%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+          - heading "Sponsored Ad - Zesta Cute Magnetic Bookmarks Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (15X4 Cms) (Trendy)" [level=2]: Zesta Cute Magnetic Bookmarks Gifts for Book Lovers | Book Marks for Book Lovers | Bookmarks Aesthetic for Books | Cartoon Magnetic Bookmarks (15X4 Cms) (Trendy)
+        - button "4.0 out of 5 stars, rating details"
+        - link "26 ratings":
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0NjQ5MDk3MjQ1MzI6OjQ6Og&url=%2FZesta-Magnetic-Bookmarks-Aesthetic-Trendy%2Fdp%2FB0DTF2PZWP%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0DTF2PZWP%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB#customerReviews
+        - link "Limited time deal":
+          - /url: /deals
+        - text: Price, product page
+        - 'link "₹473 ( ₹67.57 /count) M.R.P: ₹799 M.R.P: ₹799"':
+          - /url: /sspa/click?ie=UTF8&spc=MTo0NjcwMjEyNDEwMzg3OTE1OjE3NTMxNzIxODc6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDA0NjQ5MDk3MjQ1MzI6OjQ6Og&url=%2FZesta-Magnetic-Bookmarks-Aesthetic-Trendy%2Fdp%2FB0DTF2PZWP%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%253Aamzn1.sym.2b534e09-d9fa-4840-9aea-6910e059d6d9%26crid%3D3KCUM46ULJ8O0%26cv_ct_cx%3Dbookmark%26keywords%3Dbookmark%26pd_rd_i%3DB0DTF2PZWP%26pd_rd_r%3D967f1025-5809-4286-a2a5-8eb2976fea38%26pd_rd_w%3DYsOT1%26pd_rd_wg%3DPpt2L%26pf_rd_p%3D2b534e09-d9fa-4840-9aea-6910e059d6d9%26pf_rd_r%3DS7TBH5DVRZVV3BEHFQ9Q%26qid%3D1753172187%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dbook%252Caps%252C390%26sr%3D1-5-2907eac4-8056-42c7-8014-fdf7bd4c5395-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&sp_cr=DUB
+        - text: (41% off) Save 1% with coupon
+- heading "Related searches" [level=2]
+- list:
+  - listitem:
+    - link "bookmark magnetic":
+      - /url: /s?k=bookmark+magnetic&ref=rsl_sug_0_0&pd_rd_w=sZnUJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=Ppt2L&pd_rd_r=967f1025-5809-4286-a2a5-8eb2976fea38&qid=1753172187
+  - listitem:
+    - link "bookmark sticky notes":
+      - /url: /s?k=bookmark+sticky+notes&ref=rsl_sug_0_4&pd_rd_w=sZnUJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=Ppt2L&pd_rd_r=967f1025-5809-4286-a2a5-8eb2976fea38&qid=1753172187
+  - listitem:
+    - link "bookmark metal":
+      - /url: /s?k=bookmark+metal&ref=rsl_sug_0_1&pd_rd_w=sZnUJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=Ppt2L&pd_rd_r=967f1025-5809-4286-a2a5-8eb2976fea38&qid=1753172187
+  - listitem:
+    - link "bookmark paper":
+      - /url: /s?k=bookmark+paper&ref=rsl_sug_0_2&pd_rd_w=sZnUJ&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=Ppt2L&pd_rd_r=967f1025-5809-4286-a2a5-8eb2976fea38&qid=1753172187
+- navigation:
+  - region "pagination":
+    - list:
+      - button "Previous" [disabled]
+      - listitem:
+        - button "Page 1": "1"
+      - listitem:
+        - button "Go to page 2": "2"
+      - listitem:
+        - button "Go to page 3": "3"
+      - button [disabled]
+      - button "7" [disabled]
+      - listitem:
+        - button "Go to next page, page 2": Next
+- heading "Brands related to your search"
+- button "Leave feedback on Sponsored ad": Sponsored
+- list:
+  - listitem:
+    - link "Sponsored ad from Zesta. \"Cute bookmarks for book lovers.\" Shop Zesta.":
+      - /url: https://aax-eu.amazon.in/x/c/JPEb2btasQaTd5ZBX8k8NNQAAAGYMTSZEAMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBEx_pX/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0dAmcAV3J9BTzID9rZC2dWYkJfRUqdA94llEfB8IkGXCQbUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUey_vOtCcwc4I99FoZtr1y4nTIeWbO8Nz6O1kdykLlI8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWynS76KfDNk9i3ilcl0WfUTpaap3nIni_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbsTDhxYFPvB6ingealcfWMDBW3rXPK8LgNepsr6xwwyo6VDy1rAnjicwRdInTyS8DFH7xUasXCcLmQCFIu279PNhr4t7yjqG1Md2MmDcHA8FR3ug9m2Dkx4EB6f0V44qsde1e13oUqNoBJsXomwX36dQn4KJizS1pHTpYdOpQ-RgT-PC9vkepRmu64EIKLstTxS3x2LNrOIhZ3In65_n8eV_qWxWffsINctss6ATkHqzKE22jua3V3aXUJVrFi3OZVqJJCinRRsWedq4X7yFgCiBFjBF7osMzfiegFpGcw5d3LMZJcIQdD3CEQacqAgJHETitZiCoxD5FRbccAfA0guIW_oI4IMp4P8Y7mAPlEPDNGKlO2pA2LJUodijjGb1dxZZYfFTJpr9cdouOBbEjf-dDkaKYEqaIaEmjPbP19ObzrSkUbJbCeUpkatjXeWmBUn8ybT4T_TkJ3lUVh9p6d2Jw4EjhbvE01DA0Pi4cFbaMCWroiZoqW1NZtmYYCPYLUrr0bE2dX2AuBxOwZAKRRrBVxMWFYh2rJcSSfqoF94u4dbwdEJ1wvaImue2_aRpefenoBdYvGuojs4EHBjA2hcFvzusqr1PAxm62WiEqffqw9NVZMxzxXfjId4fiqYCxVGC-L9QPvNRI79g73w3He737kPdSa2nLzPJr5yeKJyJ06g209NcbPCVq-dKulIkfPVdKKYBnfrtOH7FMemakrhrXPKYeeV-UDNvtiRsvIDsDpasnH4ZJqCt6YUCh__Tfh10sO2qjFdBZxPqNs27iyRhwrM1aJ_XgrARvn8DBxVbvZDPUP14uTeoFERioJjncSE3OMebx76MUIS1K3_lv-cYCXi-cZ1vLDWJCaCAgeek2Uk0yAlI7GUre-SUvydXI9rT-RTpVHwqIwAvduk74vUXOcK9BK9rPcEiGv1dzMMTalcXJPI5wmlhQNWc_nQeckdxTMn-Jm2XEDL6QCMjC5S91M7GKrkTzE0TUvCuBt8pDHLJb6w6xJM34l6vTCV12G5gDV4HVxq-Ow_qpwmgLqv--Qx0oUfGD4tUdowaBd3XE8fZ3YYv6hhgNFICqYG6I4LgqLjFj5EHVfowBJr2j6LEF0JLI7_OywoFyOBpuqnd/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=80Q34rmnZb&ref_=sbx_be_s_3psl_mbd_mb0_asin&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+      - img "Sponsored ad from Zesta. \"Cute bookmarks for book lovers.\" Shop Zesta."
+    - link "Zesta":
+      - /url: https://aax-eu.amazon.in/x/c/JPEb2btasQaTd5ZBX8k8NNQAAAGYMTSZEAMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBEx_pX/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0dAmcAV3J9BTzID9rZC2dWYkJfRUqdA94llEfB8IkGXCQbUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUey_vOtCcwc4I99FoZtr1y4nTIeWbO8Nz6O1kdykLlI8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWynS76KfDNk9i3ilcl0WfUTpaap3nIni_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbsTDhxYFPvB6ingealcfWMDBW3rXPK8LgNepsr6xwwyo6VDy1rAnjicwRdInTyS8DFH7xUasXCcLmQCFIu279PNhr4t7yjqG1Md2MmDcHA8FR3ug9m2Dkx4EB6f0V44qsde1e13oUqNoBJsXomwX36dQn4KJizS1pHTpYdOpQ-RgT-PC9vkepRmu64EIKLstTxS3x2LNrOIhZ3In65_n8eV_qWxWffsINctss6ATkHqzKE22jua3V3aXUJVrFi3OZVqJJCinRRsWedq4X7yFgCiBFjBF7osMzfiegFpGcw5d3LMZJcIQdD3CEQacqAgJHETitZiCoxD5FRbccAfA0guIW_oI4IMp4P8Y7mAPlEPDNGKlO2pA2LJUodijjGb1dxZZYfFTJpr9cdouOBbEjf-dDkaKYEqaIaEmjPbP19ObzrSkUbJbCeUpkatjXeWmBUn8ybT4T_TkJ3lUVh9p6d2Jw4EjhbvE01DA0Pi4cFbaMCWroiZoqW1NZtmYYCPYLUrr0bE2dX2AuBxOwZAKRRrBVxMWFYh2rJcSSfqoF94u4dbwdEJ1wvaImue2_aRpefenoBdYvGuojs4EHBjA2hcFvzusqr1PAxm62WiEqffqw9NVZMxzxXfjId4fiqYCxVGC-L9QPvNRI79g73w3He737kPdSa2nLzPJr5yeKJyJ06g209NcbPCVq-dKulIkfPVdKKYBnfrtOH7FMemakrhrXPKYeeV-UDNvtiRsvIDsDpasnH4ZJqCt6YUCh__Tfh10sO2qjFdBZxPqNs27iyRhwrM1aJ_XgrARvn8DBxVbvZDPUP14uTeoFERioJjncSE3OMebx76MUIS1K3_lv-cYCXi-cZ1vLDWJCaCAgeek2Uk0yAlI7GUre-SUvydXI9rT-RTpVHwqIwAvduk74vUXOcK9BK9rPcEiGv1dzMMTalcXJPI5wmlhQNWc_nQeckdxTMn-Jm2XEDL6QCMjC5S91M7GKrkTzE0TUvCuBt8pDHLJb6w6xJM34l6vTCV12G5gDV4HVxq-Ow_qpwmgLqv--Qx0oUfGD4tUdowaBd3XE8fZ3YYv6hhgNFICqYG6I4LgqLjFj5EHVfowBJr2j6LEF0JLI7_OywoFyOBpuqnd/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=80Q34rmnZb&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+      - img "Zesta"
+    - link "Cute bookmarks for book lovers":
+      - /url: https://aax-eu.amazon.in/x/c/JPEb2btasQaTd5ZBX8k8NNQAAAGYMTSZEAMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBEx_pX/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0dAmcAV3J9BTzID9rZC2dWYkJfRUqdA94llEfB8IkGXCQbUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUey_vOtCcwc4I99FoZtr1y4nTIeWbO8Nz6O1kdykLlI8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWynS76KfDNk9i3ilcl0WfUTpaap3nIni_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbsTDhxYFPvB6ingealcfWMDBW3rXPK8LgNepsr6xwwyo6VDy1rAnjicwRdInTyS8DFH7xUasXCcLmQCFIu279PNhr4t7yjqG1Md2MmDcHA8FR3ug9m2Dkx4EB6f0V44qsde1e13oUqNoBJsXomwX36dQn4KJizS1pHTpYdOpQ-RgT-PC9vkepRmu64EIKLstTxS3x2LNrOIhZ3In65_n8eV_qWxWffsINctss6ATkHqzKE22jua3V3aXUJVrFi3OZVqJJCinRRsWedq4X7yFgCiBFjBF7osMzfiegFpGcw5d3LMZJcIQdD3CEQacqAgJHETitZiCoxD5FRbccAfA0guIW_oI4IMp4P8Y7mAPlEPDNGKlO2pA2LJUodijjGb1dxZZYfFTJpr9cdouOBbEjf-dDkaKYEqaIaEmjPbP19ObzrSkUbJbCeUpkatjXeWmBUn8ybT4T_TkJ3lUVh9p6d2Jw4EjhbvE01DA0Pi4cFbaMCWroiZoqW1NZtmYYCPYLUrr0bE2dX2AuBxOwZAKRRrBVxMWFYh2rJcSSfqoF94u4dbwdEJ1wvaImue2_aRpefenoBdYvGuojs4EHBjA2hcFvzusqr1PAxm62WiEqffqw9NVZMxzxXfjId4fiqYCxVGC-L9QPvNRI79g73w3He737kPdSa2nLzPJr5yeKJyJ06g209NcbPCVq-dKulIkfPVdKKYBnfrtOH7FMemakrhrXPKYeeV-UDNvtiRsvIDsDpasnH4ZJqCt6YUCh__Tfh10sO2qjFdBZxPqNs27iyRhwrM1aJ_XgrARvn8DBxVbvZDPUP14uTeoFERioJjncSE3OMebx76MUIS1K3_lv-cYCXi-cZ1vLDWJCaCAgeek2Uk0yAlI7GUre-SUvydXI9rT-RTpVHwqIwAvduk74vUXOcK9BK9rPcEiGv1dzMMTalcXJPI5wmlhQNWc_nQeckdxTMn-Jm2XEDL6QCMjC5S91M7GKrkTzE0TUvCuBt8pDHLJb6w6xJM34l6vTCV12G5gDV4HVxq-Ow_qpwmgLqv--Qx0oUfGD4tUdowaBd3XE8fZ3YYv6hhgNFICqYG6I4LgqLjFj5EHVfowBJr2j6LEF0JLI7_OywoFyOBpuqnd/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=80Q34rmnZb&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+    - link "Shop Zesta":
+      - /url: https://aax-eu.amazon.in/x/c/JPEb2btasQaTd5ZBX8k8NNQAAAGYMTSZEAMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBEx_pX/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0dAmcAV3J9BTzID9rZC2dWYkJfRUqdA94llEfB8IkGXCQbUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUey_vOtCcwc4I99FoZtr1y4nTIeWbO8Nz6O1kdykLlI8C-9FHE6Fj0W5fDGy7yyiZ7bUochyZYxJ8q3quj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGH0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWynS76KfDNk9i3ilcl0WfUTpaap3nIni_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPPkbXMc2B6mY1-m77hh_MwAwATfiqCLjgCxNVlM0aE5WRye97W-Emi-1VdjAwrOzsebGzCu6UN9uLdflfKX6xna7XhBFGM8LEk91THJSabjRkCnAMiA4DTiGxK1uhTwGWuE2xZqlxxlkhD9DLrC_nVAg64RY6AVIZ1CbVb2zBRzGa7FBesp2VHamcbLKEwMsN-OdT7SfusDPRAXN9JVkSfkUJxVKZ5O2F3eSAuJpnmYaGKiS4LLYl-9GbsTDhxYFPvB6ingealcfWMDBW3rXPK8LgNepsr6xwwyo6VDy1rAnjicwRdInTyS8DFH7xUasXCcLmQCFIu279PNhr4t7yjqG1Md2MmDcHA8FR3ug9m2Dkx4EB6f0V44qsde1e13oUqNoBJsXomwX36dQn4KJizS1pHTpYdOpQ-RgT-PC9vkepRmu64EIKLstTxS3x2LNrOIhZ3In65_n8eV_qWxWffsINctss6ATkHqzKE22jua3V3aXUJVrFi3OZVqJJCinRRsWedq4X7yFgCiBFjBF7osMzfiegFpGcw5d3LMZJcIQdD3CEQacqAgJHETitZiCoxD5FRbccAfA0guIW_oI4IMp4P8Y7mAPlEPDNGKlO2pA2LJUodijjGb1dxZZYfFTJpr9cdouOBbEjf-dDkaKYEqaIaEmjPbP19ObzrSkUbJbCeUpkatjXeWmBUn8ybT4T_TkJ3lUVh9p6d2Jw4EjhbvE01DA0Pi4cFbaMCWroiZoqW1NZtmYYCPYLUrr0bE2dX2AuBxOwZAKRRrBVxMWFYh2rJcSSfqoF94u4dbwdEJ1wvaImue2_aRpefenoBdYvGuojs4EHBjA2hcFvzusqr1PAxm62WiEqffqw9NVZMxzxXfjId4fiqYCxVGC-L9QPvNRI79g73w3He737kPdSa2nLzPJr5yeKJyJ06g209NcbPCVq-dKulIkfPVdKKYBnfrtOH7FMemakrhrXPKYeeV-UDNvtiRsvIDsDpasnH4ZJqCt6YUCh__Tfh10sO2qjFdBZxPqNs27iyRhwrM1aJ_XgrARvn8DBxVbvZDPUP14uTeoFERioJjncSE3OMebx76MUIS1K3_lv-cYCXi-cZ1vLDWJCaCAgeek2Uk0yAlI7GUre-SUvydXI9rT-RTpVHwqIwAvduk74vUXOcK9BK9rPcEiGv1dzMMTalcXJPI5wmlhQNWc_nQeckdxTMn-Jm2XEDL6QCMjC5S91M7GKrkTzE0TUvCuBt8pDHLJb6w6xJM34l6vTCV12G5gDV4HVxq-Ow_qpwmgLqv--Qx0oUfGD4tUdowaBd3XE8fZ3YYv6hhgNFICqYG6I4LgqLjFj5EHVfowBJr2j6LEF0JLI7_OywoFyOBpuqnd/https://www.amazon.in/stores/page/3DD4168C-E605-4620-B7E1-D9922C723675/?_encoding=UTF8&store_ref=SB_A009878215LOUR7RJ3DFH-A003059619AYA134HJVGE&pd_rd_plhdr=t&aaxitk=c86e4694eea43840b0ef286ae8247442&hsa_cr_id=0&lp_asins=B0C3M9LX14%2CB0C3M5JK9L&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=80Q34rmnZb&ref_=sbx_be_s_3psl_mbd_mb0_cta&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+  - listitem:
+    - link "Sponsored ad from TOJE. \"TOJE Handmade Crochet Series.\" Shop TOJE.":
+      - /url: https://aax-eu.amazon.in/x/c/JCvTSwCXKoJElECzwe70gT8AAAGYMTSZEQMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICAEceIQ/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0YAmcAJBlFEwizHdP8EHowX2VJYQS_J6xEokfB8IkGXCQHUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezPTHK2f6t07zbpGS9iBsaXkM-mNMMd7j9wufAA-vo8C-9FHE6Fj0W5fDGy7yyiJobU4QBuZTTQ1qWqqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGD0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyjW-DmTC1k_S_wgfFfZOF1rImihHFAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPO4fX8swBN-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j70CjDKXc9JgmE-ZdqzgIZfKsNxZ6D_jR_hihqAP6_nWIi64RY6AZme1KbVpCjFDLCaYpOCdVOVH69QI70GxIFEa-dcbSfuu7tAwXj_JpnWfEbJBVeJoezKneqONxArWYSX66rh-HJvskIb_rDgQMsPfNAp2ACa1R4XMHqIH7sSNgSg6PSvoWgzxmb0FT23e0_lhwxIsEMF36oCX3j22u9Hn4wln_AIeKJz_Nuv4NBoQCw1aNicljcCHk7fX-T9kafjh4FG6zZerc-tPutZXKcTaJoW6UUlEY53KslsZ6K7lfxqhCGPeT0U_hZZv_R5dQ4qwmT45YLLLs0XCqBzEn4oOIiaFQ62_q6_tALwiNRfP9eH-ZVp6U_iGSlNlLvt9OZLXeXTKlROD6OWCi3ey_RCxgtaZu-Xqi02iiBFWp_wfgq-_jQo0Jscw5L3ZJCHtIIKgikEQmB8zYJHELEmYSFoxv4TiTXd2HU2wqYXNUW4IMpyP45_WAOiFXEKn6lOwFE15gNg9azsW7idBJZeOJtMoPhVPwiN23El8adClqNPlK-HP86rs275eaj0Z6PU6lAV9kikqxdRtf0Fnfswp74da_eEmELXnVb7e-I9YoJ3JrQ1nzYzu6TQVXaBTG7oD1z5Xh0TJyNWQrREUHrw7E5aXuBqiZL_IYvGBrBVEotZIdtrMgBV_v3cMAWhNLvd00S2c3i_OO3_cZkfqidsylm4XuoirkHH33h1xdZiiKth6ZRAxm53GmqubDQnMcMY7lrxkfzMcwq77ZLxySsoIUlENFSV55D-lAFDMfFm1LdQuqnKg3oqJukBpqJw-kn0sEJYM-t__tfuRkkasN4K7YzpPn1YHX-M464k7prVOeaaMNiUhxC1SVUsMr1MInrsVAGJKGX6tsDpvTSVSgA6MCAzhVqTQjtHfiBzx9u3vA2aZfdub4Jr0doMTlgvMm7aJcluSSaEx16-JPIRVY3Ncaz7beJaJilBxr-mvp7CjaIeucsaGU8mml4rbKO5UvKJwZ8U4w0blpL3QvVlYO1ccKUAbbaKYcB2tODze91PZr9BKxsPcAmGvpYz5JQaUUHevFxgDMvHpaP5G0LKVp6FsXiPGmJZHD3O3gxD5641M6dIKVRjkAZE__7WJ5pTDDdMKYrxIEnvF3nDnN5qA0ZH3otchq-YiTZ3xTOPK3-7jwvkkveMbBsa_EeNZ3j066nzYYnUg4xSQc5iY60B4n_j6ififAJvcwPpp1La7mumI4Y0EPxz7bNiFxz/https://www.amazon.in/stores/page/434E3401-D687-4716-B7CB-7F392B227FEB/?_encoding=UTF8&store_ref=SB_A094561036FJ9JC6ID325-A04490172WP11RN4JAEK6&pd_rd_plhdr=t&aaxitk=a9fd4062cfb5bf01796053b82622fde6&hsa_cr_id=0&lp_asins=B0DM8VJJ9N%2CB0DK8SRXMJ%2CB0DK7G4KDP&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=BtOlo5k0H1&ref_=sbx_be_s_3psl_mbd_mb1_asin&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+      - img "Sponsored ad from TOJE. \"TOJE Handmade Crochet Series.\" Shop TOJE."
+    - link "TOJE":
+      - /url: https://aax-eu.amazon.in/x/c/JCvTSwCXKoJElECzwe70gT8AAAGYMTSZEQMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICAEceIQ/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0YAmcAJBlFEwizHdP8EHowX2VJYQS_J6xEokfB8IkGXCQHUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezPTHK2f6t07zbpGS9iBsaXkM-mNMMd7j9wufAA-vo8C-9FHE6Fj0W5fDGy7yyiJobU4QBuZTTQ1qWqqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGD0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyjW-DmTC1k_S_wgfFfZOF1rImihHFAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPO4fX8swBN-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j70CjDKXc9JgmE-ZdqzgIZfKsNxZ6D_jR_hihqAP6_nWIi64RY6AZme1KbVpCjFDLCaYpOCdVOVH69QI70GxIFEa-dcbSfuu7tAwXj_JpnWfEbJBVeJoezKneqONxArWYSX66rh-HJvskIb_rDgQMsPfNAp2ACa1R4XMHqIH7sSNgSg6PSvoWgzxmb0FT23e0_lhwxIsEMF36oCX3j22u9Hn4wln_AIeKJz_Nuv4NBoQCw1aNicljcCHk7fX-T9kafjh4FG6zZerc-tPutZXKcTaJoW6UUlEY53KslsZ6K7lfxqhCGPeT0U_hZZv_R5dQ4qwmT45YLLLs0XCqBzEn4oOIiaFQ62_q6_tALwiNRfP9eH-ZVp6U_iGSlNlLvt9OZLXeXTKlROD6OWCi3ey_RCxgtaZu-Xqi02iiBFWp_wfgq-_jQo0Jscw5L3ZJCHtIIKgikEQmB8zYJHELEmYSFoxv4TiTXd2HU2wqYXNUW4IMpyP45_WAOiFXEKn6lOwFE15gNg9azsW7idBJZeOJtMoPhVPwiN23El8adClqNPlK-HP86rs275eaj0Z6PU6lAV9kikqxdRtf0Fnfswp74da_eEmELXnVb7e-I9YoJ3JrQ1nzYzu6TQVXaBTG7oD1z5Xh0TJyNWQrREUHrw7E5aXuBqiZL_IYvGBrBVEotZIdtrMgBV_v3cMAWhNLvd00S2c3i_OO3_cZkfqidsylm4XuoirkHH33h1xdZiiKth6ZRAxm53GmqubDQnMcMY7lrxkfzMcwq77ZLxySsoIUlENFSV55D-lAFDMfFm1LdQuqnKg3oqJukBpqJw-kn0sEJYM-t__tfuRkkasN4K7YzpPn1YHX-M464k7prVOeaaMNiUhxC1SVUsMr1MInrsVAGJKGX6tsDpvTSVSgA6MCAzhVqTQjtHfiBzx9u3vA2aZfdub4Jr0doMTlgvMm7aJcluSSaEx16-JPIRVY3Ncaz7beJaJilBxr-mvp7CjaIeucsaGU8mml4rbKO5UvKJwZ8U4w0blpL3QvVlYO1ccKUAbbaKYcB2tODze91PZr9BKxsPcAmGvpYz5JQaUUHevFxgDMvHpaP5G0LKVp6FsXiPGmJZHD3O3gxD5641M6dIKVRjkAZE__7WJ5pTDDdMKYrxIEnvF3nDnN5qA0ZH3otchq-YiTZ3xTOPK3-7jwvkkveMbBsa_EeNZ3j066nzYYnUg4xSQc5iY60B4n_j6ififAJvcwPpp1La7mumI4Y0EPxz7bNiFxz/https://www.amazon.in/stores/page/434E3401-D687-4716-B7CB-7F392B227FEB/?_encoding=UTF8&store_ref=SB_A094561036FJ9JC6ID325-A04490172WP11RN4JAEK6&pd_rd_plhdr=t&aaxitk=a9fd4062cfb5bf01796053b82622fde6&hsa_cr_id=0&lp_asins=B0DM8VJJ9N%2CB0DK8SRXMJ%2CB0DK7G4KDP&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=BtOlo5k0H1&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+      - img "TOJE"
+    - link "TOJE Handmade Crochet Series":
+      - /url: https://aax-eu.amazon.in/x/c/JCvTSwCXKoJElECzwe70gT8AAAGYMTSZEQMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICAEceIQ/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0YAmcAJBlFEwizHdP8EHowX2VJYQS_J6xEokfB8IkGXCQHUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezPTHK2f6t07zbpGS9iBsaXkM-mNMMd7j9wufAA-vo8C-9FHE6Fj0W5fDGy7yyiJobU4QBuZTTQ1qWqqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGD0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyjW-DmTC1k_S_wgfFfZOF1rImihHFAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPO4fX8swBN-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j70CjDKXc9JgmE-ZdqzgIZfKsNxZ6D_jR_hihqAP6_nWIi64RY6AZme1KbVpCjFDLCaYpOCdVOVH69QI70GxIFEa-dcbSfuu7tAwXj_JpnWfEbJBVeJoezKneqONxArWYSX66rh-HJvskIb_rDgQMsPfNAp2ACa1R4XMHqIH7sSNgSg6PSvoWgzxmb0FT23e0_lhwxIsEMF36oCX3j22u9Hn4wln_AIeKJz_Nuv4NBoQCw1aNicljcCHk7fX-T9kafjh4FG6zZerc-tPutZXKcTaJoW6UUlEY53KslsZ6K7lfxqhCGPeT0U_hZZv_R5dQ4qwmT45YLLLs0XCqBzEn4oOIiaFQ62_q6_tALwiNRfP9eH-ZVp6U_iGSlNlLvt9OZLXeXTKlROD6OWCi3ey_RCxgtaZu-Xqi02iiBFWp_wfgq-_jQo0Jscw5L3ZJCHtIIKgikEQmB8zYJHELEmYSFoxv4TiTXd2HU2wqYXNUW4IMpyP45_WAOiFXEKn6lOwFE15gNg9azsW7idBJZeOJtMoPhVPwiN23El8adClqNPlK-HP86rs275eaj0Z6PU6lAV9kikqxdRtf0Fnfswp74da_eEmELXnVb7e-I9YoJ3JrQ1nzYzu6TQVXaBTG7oD1z5Xh0TJyNWQrREUHrw7E5aXuBqiZL_IYvGBrBVEotZIdtrMgBV_v3cMAWhNLvd00S2c3i_OO3_cZkfqidsylm4XuoirkHH33h1xdZiiKth6ZRAxm53GmqubDQnMcMY7lrxkfzMcwq77ZLxySsoIUlENFSV55D-lAFDMfFm1LdQuqnKg3oqJukBpqJw-kn0sEJYM-t__tfuRkkasN4K7YzpPn1YHX-M464k7prVOeaaMNiUhxC1SVUsMr1MInrsVAGJKGX6tsDpvTSVSgA6MCAzhVqTQjtHfiBzx9u3vA2aZfdub4Jr0doMTlgvMm7aJcluSSaEx16-JPIRVY3Ncaz7beJaJilBxr-mvp7CjaIeucsaGU8mml4rbKO5UvKJwZ8U4w0blpL3QvVlYO1ccKUAbbaKYcB2tODze91PZr9BKxsPcAmGvpYz5JQaUUHevFxgDMvHpaP5G0LKVp6FsXiPGmJZHD3O3gxD5641M6dIKVRjkAZE__7WJ5pTDDdMKYrxIEnvF3nDnN5qA0ZH3otchq-YiTZ3xTOPK3-7jwvkkveMbBsa_EeNZ3j066nzYYnUg4xSQc5iY60B4n_j6ififAJvcwPpp1La7mumI4Y0EPxz7bNiFxz/https://www.amazon.in/stores/page/434E3401-D687-4716-B7CB-7F392B227FEB/?_encoding=UTF8&store_ref=SB_A094561036FJ9JC6ID325-A04490172WP11RN4JAEK6&pd_rd_plhdr=t&aaxitk=a9fd4062cfb5bf01796053b82622fde6&hsa_cr_id=0&lp_asins=B0DM8VJJ9N%2CB0DK8SRXMJ%2CB0DK7G4KDP&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=BtOlo5k0H1&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+    - link "Shop TOJE":
+      - /url: https://aax-eu.amazon.in/x/c/JCvTSwCXKoJElECzwe70gT8AAAGYMTSZEQMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICAEceIQ/clv1_CEuOPUxokZA0iHrVWfkg_X_hTVRrbeooicsHpDKI58VW8X8PzU25Fv018HHz9hvVjq0yzpNb3X7OfU0YAmcAJBlFEwizHdP8EHowX2VJYQS_J6xEokfB8IkGXCQHUuW6XJfef1D8rsFSE0M9llvwdksJOldODd93Q196UuYlQRaY37qDjF4oXlv5OpjsdqwyCjQHbdXAhZRSWWhBJNwAffQdjs-hn4wsEjvWNPQG9gUahJtJn6j8Z0wG3nKH1EB2AHnpPv3v4jxS3xU_LeksShaZIl-jjAz9B7yl_bPrUYAZJ0SW56eH2BSUezPTHK2f6t07zbpGS9iBsaXkM-mNMMd7j9wufAA-vo8C-9FHE6Fj0W5fDGy7yyiJobU4QBuZTTQ1qWqqj0UNuzT-N52bUz1lAp3XhtVXPtM6C2xN4Sp2M752rihBP2dM-J0mRnMYGeGRQNXmq82WYj0fYwqXp5k5RHmyoBqWXwRyXIlzu-6HH3FT4s6H-wHLa21DI5GSkM0K_SFkG4gwwxmImXXG7TvDXAVBdkM7BA2VVBHqP5HxRyOtGwl75VQCCF3beWjjTcYigPRbLgeyrKdlg-IcNyLiMCNNsSl1iNkGud31v3Mko4-Hw7UTQ3vR8SK8VayIDEVmeO0DeShi0rJjNqESiRo54YPIEhVYeH4BntRQj6gELRYEQAexsGonpRbxYfV8_TQk8l1Tm-0G_-0SME62NX0l75HxOfnE34ydAHI5CibvjBvSRsZ74T9i8dJycPqYh5loFB3Xrmj36BjGD0HkBAd5pR3ON3tYkP9wdtUwYBbL5lkOPfFxgz9fs5yETWyjW-DmTC1k_S_wgfFfZOF1rImihHFAi_STPviJlNGO1HPq32H4xW0UyTzGk1SVgQX3uNEgp_UHyxHrPO4fX8swBN-53eyU4RJvbAgsACjmsBmG0R14PU80UXQ1WBvY9mWCnCi_T-aZ3r6cj_zSyRalUYFIM-yAJbjB1ESIZQJRLs9vfQtzZFdYb7j70CjDKXc9JgmE-ZdqzgIZfKsNxZ6D_jR_hihqAP6_nWIi64RY6AZme1KbVpCjFDLCaYpOCdVOVH69QI70GxIFEa-dcbSfuu7tAwXj_JpnWfEbJBVeJoezKneqONxArWYSX66rh-HJvskIb_rDgQMsPfNAp2ACa1R4XMHqIH7sSNgSg6PSvoWgzxmb0FT23e0_lhwxIsEMF36oCX3j22u9Hn4wln_AIeKJz_Nuv4NBoQCw1aNicljcCHk7fX-T9kafjh4FG6zZerc-tPutZXKcTaJoW6UUlEY53KslsZ6K7lfxqhCGPeT0U_hZZv_R5dQ4qwmT45YLLLs0XCqBzEn4oOIiaFQ62_q6_tALwiNRfP9eH-ZVp6U_iGSlNlLvt9OZLXeXTKlROD6OWCi3ey_RCxgtaZu-Xqi02iiBFWp_wfgq-_jQo0Jscw5L3ZJCHtIIKgikEQmB8zYJHELEmYSFoxv4TiTXd2HU2wqYXNUW4IMpyP45_WAOiFXEKn6lOwFE15gNg9azsW7idBJZeOJtMoPhVPwiN23El8adClqNPlK-HP86rs275eaj0Z6PU6lAV9kikqxdRtf0Fnfswp74da_eEmELXnVb7e-I9YoJ3JrQ1nzYzu6TQVXaBTG7oD1z5Xh0TJyNWQrREUHrw7E5aXuBqiZL_IYvGBrBVEotZIdtrMgBV_v3cMAWhNLvd00S2c3i_OO3_cZkfqidsylm4XuoirkHH33h1xdZiiKth6ZRAxm53GmqubDQnMcMY7lrxkfzMcwq77ZLxySsoIUlENFSV55D-lAFDMfFm1LdQuqnKg3oqJukBpqJw-kn0sEJYM-t__tfuRkkasN4K7YzpPn1YHX-M464k7prVOeaaMNiUhxC1SVUsMr1MInrsVAGJKGX6tsDpvTSVSgA6MCAzhVqTQjtHfiBzx9u3vA2aZfdub4Jr0doMTlgvMm7aJcluSSaEx16-JPIRVY3Ncaz7beJaJilBxr-mvp7CjaIeucsaGU8mml4rbKO5UvKJwZ8U4w0blpL3QvVlYO1ccKUAbbaKYcB2tODze91PZr9BKxsPcAmGvpYz5JQaUUHevFxgDMvHpaP5G0LKVp6FsXiPGmJZHD3O3gxD5641M6dIKVRjkAZE__7WJ5pTDDdMKYrxIEnvF3nDnN5qA0ZH3otchq-YiTZ3xTOPK3-7jwvkkveMbBsa_EeNZ3j066nzYYnUg4xSQc5iY60B4n_j6ififAJvcwPpp1La7mumI4Y0EPxz7bNiFxz/https://www.amazon.in/stores/page/434E3401-D687-4716-B7CB-7F392B227FEB/?_encoding=UTF8&store_ref=SB_A094561036FJ9JC6ID325-A04490172WP11RN4JAEK6&pd_rd_plhdr=t&aaxitk=a9fd4062cfb5bf01796053b82622fde6&hsa_cr_id=0&lp_asins=B0DM8VJJ9N%2CB0DK8SRXMJ%2CB0DK7G4KDP&lp_query=bookmark&lp_slot=desktop-hsa-3psl&aref=BtOlo5k0H1&ref_=sbx_be_s_3psl_mbd_mb1_cta&pd_rd_w=OskAv&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=S7TBH5DVRZVV3BEHFQ9Q&pd_rd_wg=0vMrO&pd_rd_r=df17a286-faa0-43fc-b889-d5c9da06be20
+- heading "Need help?" [level=2]
+- link "Visit the help section":
+  - /url: /gp/help/customer/display.html?nodeId=201889520
+- text: or
+- link "contact us":
+  - /url: /gp/help/customer/contact-us
+- iframe
+- button "Leave feedback on Sponsored advertisement"
+- link "Go back to filtering menu":
+  - /url: "#s-skipLinkTargetForFilterOptions"
+- link "Skip to main search results":
+  - /url: "#s-skipLinkTargetForMainSearchResults"
+- group "Delivery Day":
+  - heading "Delivery Day" [level=2]
+  - list "Delivery Day":
+    - listitem:
+      - link "Apply the filter Get It by Tomorrow to narrow results":
+        - /url: /s?k=bookmark&rh=p_90%3A6741118031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=6741116031&sprefix=book%2Caps%2C390&ref=sr_nr_p_90_1&ds=v1%3AIlSFq%2FWWbVmJwPBEgf43k8obHYFJLf84qlJG%2F2QZE4k
+        - text: Get It by Tomorrow
+    - listitem:
+      - link "Apply the filter Get It in 2 Days to narrow results":
+        - /url: /s?k=bookmark&rh=p_90%3A20912642031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=6741116031&sprefix=book%2Caps%2C390&ref=sr_nr_p_90_2&ds=v1%3A5Ly50ONN%2BJu3bI2GWMjesNzGlDQryfpcLuPutlbp39g
+        - text: Get It in 2 Days
+- group:
+  - text: Price ₹0 ₹28,600+
+  - slider "Minimum price": "0"
+  - slider "Maximum price": "188"
+  - button "Go - Submit price range"
+  - heading "Deals & Discounts" [level=2]
+  - list "Deals & Discounts":
+    - listitem:
+      - link "All Discounts":
+        - /url: /s?k=bookmark&rh=p_n_deal_type%3A26921226031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=26921223031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_deal_type_1&ds=v1%3A6s9IN3J7oCj7hhK9mVhkdYSq2Ehx4GKDK7Sbr9W8s3k
+    - listitem:
+      - link "Today's Deals":
+        - /url: /s?k=bookmark&rh=p_n_deal_type%3A26921224031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=26921223031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_deal_type_2&ds=v1%3AYD7WKEQ2OJ6kV0h%2FnmU8WFl51LSoEQbFVMZVmsDiMdM
+- group "Customer Review":
+  - heading "Customer Review" [level=2]
+  - list "Customer Review":
+    - listitem:
+      - link "Apply the filter 4 Stars & Up to narrow results":
+        - /url: /s?k=bookmark&rh=p_72%3A1318476031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=1318475031&sprefix=book%2Caps%2C390&ref=sr_nr_p_72_1&ds=v1%3A%2BkT2nxFKLV6SPiIzm%2F8pWiIeOUVqsaWfuoZeRKDd1TY
+        - text: 4 Stars & Up
+- group "Discount":
+  - heading "Discount" [level=2]
+  - list "Discount":
+    - listitem:
+      - link "10% Off or more":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_pct-off-with-tax%3A2665399031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=2665398031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Ak2eUI9a6vHt3KJOuQEWDwqAyeomBHQBW%2BsCkikb6QGs
+    - listitem:
+      - link "25% Off or more":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_pct-off-with-tax%3A2665400031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=2665398031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AB6wveqZ7YJRHCETDBov0qE8XQcBsNRmiRAdjniGU3pw
+    - listitem:
+      - link "35% Off or more":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_pct-off-with-tax%3A2665402031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=2665398031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AaysSwgc6CWMoInZlQka0PH5IO91uomUsHz18vhRywIY
+    - listitem:
+      - link "50% Off or more":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_pct-off-with-tax%3A2665401031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=2665398031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3Awuiuqukf5oXLOxSkKTJSAbK%2BFb3zPKm9dmJnyM8tWAQ
+    - listitem:
+      - link "60% Off or more":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_pct-off-with-tax%3A27060456031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=2665398031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3AemtFxoJnfugzKDPvxfT3dbvNII0ApqIXpSf75Pp7pOU
+    - listitem:
+      - link "70% Off or more":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_pct-off-with-tax%3A27060457031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=2665398031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3A7TUPPA1JzSOx2qCCd7wGzwu9Co%2BS3i2kL5gU%2FyPnhho
+- group "Brands":
+  - heading "Brands" [level=2]
+  - list "Brands":
+    - listitem:
+      - link "Apply the filter Zesta to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_123%3A588934&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=91049095031&sprefix=book%2Caps%2C390&ref=sr_nr_p_123_1&ds=v1%3A1%2FxPSFMqAahjWDKda2ifh1GCJj91C30N3LSCU9coCsM
+        - text: Zesta
+    - listitem:
+      - link "Apply the filter Climberty to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_123%3A862437&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=91049095031&sprefix=book%2Caps%2C390&ref=sr_nr_p_123_2&ds=v1%3AiojpT8QhYEtcpjanA0nNJL%2BFWx98ot%2BCWEhemrXQpIg
+        - text: Climberty
+    - listitem:
+      - link "Apply the filter Supvox to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_123%3A867883&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=91049095031&sprefix=book%2Caps%2C390&ref=sr_nr_p_123_3&ds=v1%3Aee9ymlJ0sVW0uAvuxeAT2fctE5jGvAktBREMeXV04nU
+        - text: Supvox
+    - listitem:
+      - link "Apply the filter HASTHIP to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_123%3A413471&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=91049095031&sprefix=book%2Caps%2C390&ref=sr_nr_p_123_4&ds=v1%3AOb4pdP6J1wuGNP1SchzzzEN1MfaUXRsC29A7Q5c%2Fm5E
+        - text: HASTHIP
+    - listitem:
+      - link "Apply the filter ISEE 360 to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_123%3A447076&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=91049095031&sprefix=book%2Caps%2C390&ref=sr_nr_p_123_5&ds=v1%3AHBmoF8ZRKNH5FC6qW%2FBkmEQ8CcZ53TByBmmrrZ7ah4Q
+        - text: ISEE 360
+    - listitem:
+      - link "Apply the filter GLUN to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_123%3A263283&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=91049095031&sprefix=book%2Caps%2C390&ref=sr_nr_p_123_6&ds=v1%3AMvdnP20e7sSqrl%2FpMFeTC1Sosfb7Re%2FTq%2B5LMonmcE4
+        - text: GLUN
+    - listitem:
+      - link "Apply the filter DOODLE to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_123%3A396442&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=91049095031&sprefix=book%2Caps%2C390&ref=sr_nr_p_123_7&ds=v1%3ANJuMTJTK6%2BVtUYvIent1a7Pe%2BKp8XEQNuirl3rz3vlU
+        - text: DOODLE
+    - listitem:
+      - button "See more, Brands": See more
+- group "Category":
+  - heading "Category" [level=2]
+  - list "Category":
+    - listitem:
+      - link "Labels, Index Dividers & Stamps":
+        - /url: /s?k=bookmark&rh=n%3A3591070031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=3576079031&sprefix=book%2Caps%2C390&ref=sr_nr_n_1&ds=v1%3AS%2B8vedLxcgLoS2NT6dYPxyLlkAvfeWO8K9i5EGUIUyg
+    - listitem:
+      - link "Bookmarks":
+        - /url: /s?k=bookmark&rh=n%3A3591070031%2Cn%3A3591212031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=3576079031&sprefix=book%2Caps%2C390&ref=sr_nr_n_2&ds=v1%3AHmAw%2B4M2QkeZp%2BHZp%2FEyXOqbVKFFj7gnytp9hRMNdYI
+- group "Pay On Delivery":
+  - heading "Pay On Delivery" [level=2]
+  - list "Pay On Delivery":
+    - listitem:
+      - link "Apply the filter Eligible for Pay On Delivery to narrow results":
+        - /url: /s?k=bookmark&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=4931670031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AeKFrRKmtC8r%2B4C%2Fod5Dzjwk6I%2Bc%2FHXPKQ3yLjmMr830
+        - text: Eligible for Pay On Delivery
+- group "Office Products Brands":
+  - heading "Office Products Brands" [level=2]
+  - list "Office Products Brands":
+    - listitem:
+      - link "Apply the filter Made for Amazon to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_format_browse-bin%3A27915252031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=27915250031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3ARqGj8mS%2BRJADZtz8nGbZeALjsbeq7iXT97%2BOcbPb5t8
+        - text: Made for Amazon
+    - listitem:
+      - link "Apply the filter Top Brands to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_format_browse-bin%3A27915251031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=27915250031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_format_browse-bin_2&ds=v1%3Axt6CZt7OhIUs2jXgTQwBDqsIkuuNKJE7FVk79f3dHfU
+        - text: Top Brands
+- group "Item Condition":
+  - heading "Item Condition" [level=2]
+  - list "Item Condition":
+    - listitem:
+      - link "New":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_condition-type%3A8609960031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=8609959031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_condition-type_1&ds=v1%3AdbwN%2F%2BzSTM1%2BkULGTUvib0zyA%2Bscav%2FkByi5VysYZRk
+    - listitem:
+      - link "Used":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_condition-type%3A8609962031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=8609959031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_condition-type_2&ds=v1%3Aj39irexnEmK5zVfYxft1C2Rb1SOcxcJx2QyCl2knkSU
+- group "New Arrivals":
+  - heading "New Arrivals" [level=2]
+  - list "New Arrivals":
+    - listitem:
+      - link "Last 30 days":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_date_first_available_absolute%3A1318487031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=1318486031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3ACi1rveFYojOIT6u5iBnmvbaAyq%2FRF1cZ8sU46%2F1g184
+    - listitem:
+      - link "Last 90 days":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_n_date_first_available_absolute%3A1318488031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=1318486031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3A2xXoz%2BYHJh9NYOwd6FA6QoAfHrt1ErLzVRyPCDb997I
+- group "Availability":
+  - heading "Availability" [level=2]
+  - list "Availability":
+    - listitem:
+      - link "Apply the filter Include Out of Stock to narrow results":
+        - /url: /s?k=bookmark&rh=p_n_availability%3A1318485031&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=1318483031&sprefix=book%2Caps%2C390&ref=sr_nr_p_n_availability_2&ds=v1%3ACvCw%2BFscH%2B7xryC0VxgzcZeN4Xyl5ypHb7%2F2cBLvStU
+        - text: Include Out of Stock
+- group "Seller":
+  - heading "Seller" [level=2]
+  - list "Seller":
+    - listitem:
+      - link "Apply the filter NEXUSMART IN to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_6%3AA65WEC11GOVV9&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=1318474031&sprefix=book%2Caps%2C390&ref=sr_nr_p_6_1&ds=v1%3AJSt0fafdbq%2BwAkKZ1mypEAjsfYgBkb1naOrJB6OGhGY
+        - text: NEXUSMART IN
+    - listitem:
+      - link "Apply the filter Vinay Sales India to narrow results":
+        - /url: /s?k=bookmark&rh=n%3A2454172031%2Cp_6%3AA3DABGYRL07F0J&dc&crid=3KCUM46ULJ8O0&qid=1753172187&rnid=1318474031&sprefix=book%2Caps%2C390&ref=sr_nr_p_6_2&ds=v1%3Aba5lq3wdvKcfLGnYydmQsDvY54N2mCvTKK6UqUDSwRk
+        - text: Vinay Sales India
+    - listitem:
+      - button "See more, Seller": See more
+- iframe
+- button "Leave feedback on Sponsored advertisement"
+- iframe
+- button "Leave feedback on Sponsored advertisement"
+- complementary "Your recently viewed items and featured recommendations"
+- button "Back to top"
+- heading "Get to Know Us" [level=6]
+- list:
+  - listitem:
+    - link "About Amazon":
+      - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+  - listitem:
+    - link "Careers":
+      - /url: https://amazon.jobs
+  - listitem:
+    - link "Press Releases":
+      - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+  - listitem:
+    - link "Amazon Science":
+      - /url: https://www.amazon.science
+- heading "Connect with Us" [level=6]
+- list:
+  - listitem:
+    - link "Facebook":
+      - /url: https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6
+  - listitem:
+    - link "Twitter":
+      - /url: https://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&token=A309DFBFCB1E37A808FF531934855DC817F130B6&6
+  - listitem:
+    - link "Instagram":
+      - /url: https://www.amazon.in/gp/redirect.html?location=https://www.instagram.com/amazondotin&token=264882C912E9D005CB1D9B61F12E125D5DF9BFC7&source=standards
+- heading "Make Money with Us" [level=6]
+- list:
+  - listitem:
+    - link "Sell on Amazon":
+      - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+  - listitem:
+    - link "Sell under Amazon Accelerator":
+      - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+  - listitem:
+    - link "Protect and Build Your Brand":
+      - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+  - listitem:
+    - link "Amazon Global Selling":
+      - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+  - listitem:
+    - link "Supply to Amazon":
+      - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+  - listitem:
+    - link "Become an Affiliate":
+      - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+  - listitem:
+    - link "Fulfilment by Amazon":
+      - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+  - listitem:
+    - link "Advertise Your Products":
+      - /url: https://advertising.amazon.in/?ref=Amz.in
+  - listitem:
+    - link "Amazon Pay on Merchants":
+      - /url: https://www.amazonpay.in/merchant
+- heading "Let Us Help You" [level=6]
+- list:
+  - listitem:
+    - link "Your Account":
+      - /url: /gp/css/homepage.html?ref_=footer_ya
+  - listitem:
+    - link "Returns Centre":
+      - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+  - listitem:
+    - link "Recalls and Product Safety Alerts":
+      - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+  - listitem:
+    - link "100% Purchase Protection":
+      - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+  - listitem:
+    - link "Amazon App Download":
+      - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+  - listitem:
+    - link "Help":
+      - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+- link "Amazon India Home":
+  - /url: /ref=footer_logo
+- link "Choose a language for shopping. Current selection is English.":
+  - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+  - text: English
+- button "Expand to Change Language or Country"
+- button "Choose a country/region for shopping. The current selection is India.": India
+- list:
+  - listitem:
+    - link "AbeBooks Books, art & collectibles":
+      - /url: https://www.abebooks.com/
+      - heading "AbeBooks" [level=5]
+      - text: Books, art & collectibles
+  - listitem:
+    - link "Amazon Web Services Scalable Cloud Computing Services":
+      - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+      - heading "Amazon Web Services" [level=5]
+      - text: Scalable Cloud Computing Services
+  - listitem:
+    - link "Audible Download Audio Books":
+      - /url: https://www.audible.in/
+      - heading "Audible" [level=5]
+      - text: Download Audio Books
+  - listitem:
+    - link "IMDb Movies, TV & Celebrities":
+      - /url: https://www.imdb.com/
+      - heading "IMDb" [level=5]
+      - text: Movies, TV & Celebrities
+- list:
+  - listitem:
+    - link "Shopbop Designer Fashion Brands":
+      - /url: https://www.shopbop.com/
+      - heading "Shopbop" [level=5]
+      - text: Designer Fashion Brands
+  - listitem:
+    - link "Amazon Business Everything For Your Business":
+      - /url: /business?ref=footer_aingw
+      - heading "Amazon Business" [level=5]
+      - text: Everything For Your Business
+  - listitem:
+    - link "Prime Now 2-Hour Delivery on Everyday Items":
+      - /url: /now?ref=footer_amznow
+      - heading "Prime Now" [level=5]
+      - text: 2-Hour Delivery on Everyday Items
+  - listitem:
+    - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes":
+      - /url: /music/prime?ref=footer_apm
+      - heading "Amazon Prime Music" [level=5]
+      - text: 100 million songs, ad-free Over 15 million podcast episodes
+- list:
+  - listitem:
+    - link "Conditions of Use & Sale":
+      - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+  - listitem:
+    - link "Privacy Notice":
+      - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+  - listitem:
+    - link "Interest-Based Ads":
+      - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+- text: © 1996-2025, Amazon.com, Inc. or its affiliates
+```

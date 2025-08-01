@@ -1,0 +1,2 @@
+lenth of the string is:16
+the len of hte username text is:16

@@ -1,0 +1,13 @@
+{
+    "ModuleTEstData": {
+        "Skill1": "playwright",
+        "Skill2": "selenium",
+        "Skill3": "java"
+    },
+
+      "qaTestData": {
+        "Skill1": "playwright",
+        "Skill2": "selenium",
+        "Skill3": "java"
+    }
+}
